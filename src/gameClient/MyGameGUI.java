@@ -12,9 +12,6 @@ import java.awt.Color;
 
 import java.awt.Graphics;
 
-import java.awt.Menu;
-import java.awt.MenuBar;
-import java.awt.MenuItem;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -44,10 +41,6 @@ import dataStructure.edge_data;
 import dataStructure.graph;
 import dataStructure.node;
 import dataStructure.node_data;
-import gui.gui_graph;
-import oop_dataStructure.OOP_DGraph;
-import oop_dataStructure.oop_edge_data;
-import oop_dataStructure.oop_graph;
 import utils.Point3D;
 
 
@@ -64,7 +57,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	private int type=-1;
 	private int on=0;
 	private int printMapAgain=0;
-
+	boolean draw;
 
 	JButton Buttons;
 	JButton Start;
@@ -164,7 +157,27 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 		} 
 		while(choose==1) {}
-		if(choose==2) {
+
+		if(choose==2 &&type==1) {
+			try {
+				String info = this.game.toString();			
+				JSONObject	line = new JSONObject(info);
+				JSONObject ttt = line.getJSONObject("GameServer");
+				int rs = ttt.getInt("robots");
+				insertRobots(this.game,graph2,rs);
+			}
+
+			catch(Exception ex) {
+
+			} 
+		}
+
+
+
+
+
+
+		if(choose==2 &&type==0) {
 			try {
 				String info = this.game.toString();			
 				JSONObject	line = new JSONObject(info);
@@ -208,13 +221,13 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		on=1;
 		int ind=0;
 		long dt=50;
-		
+
 		if(type==1) {
 			while(this.game.isRunning()) {
 				this.moveRobots(this.game, this.graph2);
 				try {
 					if(ind%2==0) {repaint();}
-					TimeUnit.MILLISECONDS.sleep(50);
+					TimeUnit.MILLISECONDS.sleep(dt);
 					ind++;
 				}
 				catch(Exception e) {
@@ -228,13 +241,14 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			System.exit(0);
 		}
 		if(type==0) {
+			while(this.game.isRunning()) {}
 
 		}
 		String results = game.toString();
-		System.out.println("Game Over: "+results);	
+		System.out.println("Game Over: "+results);
 
 
-		//}
+
 
 	}
 
@@ -266,12 +280,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	@Override
 	public void run() {
-		while (play==1111) {
 
-			System.out.println("threde");
-			//	            repaint();
-			redraw();
-		}
 	}
 
 
@@ -379,14 +388,12 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 
-	
-	public void paint(Graphics g)
+	@Override
+	public void paint (Graphics g)
 	{
 		//System.out.println("enterd paint");
 
 		super.paint(g);
-
-			
 		System.out.println("yessss");
 
 
@@ -394,11 +401,11 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		//if(this.game!=null) {
 		if(choose==1 || on==1) {
 			//	System.out.println("het");
-			
+
 			if(game.getFruits()!=null) {
 				try {
 					choose=2;
-	/*		            String[] splitData = game.toString().split("[:\\}]");
+					/*		            String[] splitData = game.toString().split("[:\\}]");
 			            splitData[6]=splitData[6].substring(1,8);
 			            BufferedImage graph_image;
 						try {
@@ -408,11 +415,11 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
-			            
-	*/		           
-		       
+
+					 */		           
+
 					LinkedList<Integer> a= fruit(game, graph2,"Fruit");
-					
+
 					for(int i=0 ; i<a.size()-3; i=i+4) {
 
 						if(a.get(i+2)==-1) {
@@ -444,7 +451,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 					}
 
-					
+
 				} catch (JSONException e) {
 					// TODO Auto-generated catch block
 					System.out.println("avar");
@@ -452,42 +459,48 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				}
 
 			}
-			
+
 		}
 
 		//	print Rbots(red color) 
 		//if(game.getRobots()!=null) {
-		if(on==1) {
+		if(game!=null) {
 			try {	
-			//	BufferedImage fruit_image;
-				
-			//		fruit_image = ImageIO.read(new File("data/robot1.png"));
-				
-				LinkedList<Integer> a= fruit(game, graph2,"Robot");
-				g.setColor(Color.red);
-				for(int i=0 ; i<a.size()-1; i=i+2) {
-					g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 15, 15);		
-			//		g.drawImage(fruit_image, (int)a.get(i)-5, (int)a.get(i+1)+5,40, 40, null);
-				}	
-				
-				int i=0;
-				for( String Robot: game.getRobots())
-				{
+				BufferedImage fruit_image;
 
-					JSONObject	ff = new JSONObject(Robot);		
-					JSONObject ttt = ff.getJSONObject("Robot");
-					int src = ttt.getInt("src");
-					int dest = ttt.getInt("dest");
+				try {
+					fruit_image = ImageIO.read(new File("data/robot1.png"));
 
 
-					g.setColor(Color.blue);
-					g.drawString("src  "+src, a.get(i)+10 ,a.get(i+1)+15);
-					g.drawString("dest  "+dest, a.get(i)+10 ,a.get(i+1)+30);
-					i=i+2;
+					LinkedList<Integer> a= fruit(game, graph2,"Robot");
+					g.setColor(Color.red);
+					for(int i=0 ; i<a.size()-1; i=i+2) {
+						//	g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 15, 15);		
+						g.drawImage(fruit_image, (int)a.get(i)-5, (int)a.get(i+1)+5,40, 40, null);
+					}	
 
 
+					int i=0;
+					for( String Robot: game.getRobots())
+					{
+
+						JSONObject	ff = new JSONObject(Robot);		
+						JSONObject ttt = ff.getJSONObject("Robot");
+						int src = ttt.getInt("src");
+						int dest = ttt.getInt("dest");
+
+
+						g.setColor(Color.blue);
+						g.drawString("src  "+src, a.get(i)+10 ,a.get(i+1)+15);
+						g.drawString("dest  "+dest, a.get(i)+10 ,a.get(i+1)+30);
+						i=i+2;
+
+
+					}
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
 				}
-
 
 			} catch (JSONException e) {
 				// TODO Auto-generated catch block
@@ -516,14 +529,12 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 						g.setColor(Color.magenta);
 						if(e.getInfo()=="do" ) {
-							e.setInfo("");;
+							e.setInfo("");
 							g.setColor(Color.black);}
 						Point3D destPoint = graph2.getNode(e.getDest()).getLocation();
 						g.drawLine((int)srcPoint.x(), (int)srcPoint.y(), (int)destPoint.x(), (int)destPoint.y());
 
-						//g.fillOval((int)destPoint.x(), (int)destPoint.y(), 10, 10);
 						g.setColor(Color.BLACK);
-						//	g.drawString(""+e.getWeight(),(int)((0.1*srcPoint.x()+0.9*destPoint.x()+10)), (int)((0.1*srcPoint.y()+0.9*destPoint.y()+5)));														
 
 						g.setColor(Color.yellow);
 						g.fillOval((int)((0.1*srcPoint.x()+0.9*destPoint.x())-5), (int)((0.1*srcPoint.y()+0.9*destPoint.y())-5), 10, 10);
@@ -535,153 +546,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			}
 		}
 
-		//print Rbots(red color) 
-		if(game!=null) {
-			if(game.getRobots() !=null) {
-				//System.out.println("hey");
-				try {	
-					LinkedList<Integer> a= fruit(game, graph2,"Robot");
-					g.setColor(Color.red);
-					for(int i=0 ; i<a.size()-1; i=i+2) {
-						g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 15, 15);				
-					}	
-					int i=0;
-					for( String Robot: game.getRobots())
-					{
-
-						JSONObject	ff = new JSONObject(Robot);		
-						JSONObject ttt = ff.getJSONObject("Robot");
-						int src = ttt.getInt("src");
-						int dest = ttt.getInt("dest");
-
-						g.setColor(Color.blue);
-						g.drawString("src  "+src, a.get(i)+10 ,a.get(i+1)+15);
-						g.drawString("dest  "+dest, a.get(i)+10 ,a.get(i+1)+30);
-						i=i+2;
-					}
-
-				} catch (JSONException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			}
-
-		}
-	
 	}
-
-
-
-
-
-
-
-	/*	
-	public DGraph printDGraph( int x) {
-
-		game_service game = Game_Server.getServer(x); // you have [0,23] games
-		String g = game.getGraph(); //getGraph returns String of edges and nodes
-		DGraph gg = new DGraph();
-		gg.init(g);
-		this.game=game;
-		this.graph2=gg;
-
-		for( String fruit: game.getFruits()) {
-
-			System.out.println(fruit);
-		}
-		String info = game.toString();
-		JSONObject line;
-		try {
-			line = new JSONObject(info);
-			JSONObject ttt = line.getJSONObject("GameServer");
-
-			System.out.println(info);
-			System.out.println(g);
-			// the list of fruits should be considered in your solution
-			Iterator<String> f_iter = game.getFruits().iterator();
-			while(f_iter.hasNext())
-			{System.out.println(f_iter.next());
-			}	
-			int rs = ttt.getInt("robots");
-			int src_node = 0;  // arbitrary node, you should start at one of the fruits
-			for(int a = 0;a<rs;a++) {
-				game.addRobot(src_node+a);
-			}
-
-			//only print robots
-			Iterator<String> f_iter2 = game.getRobots().iterator();
-			while(f_iter2.hasNext())
-			{System.out.println(f_iter2.next());
-			}	
-		}
-		catch (JSONException e) {e.printStackTrace();}
-		//return this.graph2;
-		return gg;
-	}
-
-	 */
-
-
-
-	/*
-
-
-	public game_service printLevelNum( int x,MyGameGUI gui) {
-
-		game_service game = Game_Server.getServer(x); // you have [0,23] games
-		String g = game.getGraph(); //getGraph returns String of edges and nodes
-		DGraph gg = new DGraph();
-		gg.init(g);
-		this.game=game;
-		this.graph2=gg;
-
-		for( String fruit: game.getFruits()) {
-
-			System.out.println(fruit);
-		}
-		String info = game.toString();
-		JSONObject line;
-		try {
-			line = new JSONObject(info);
-			JSONObject ttt = line.getJSONObject("GameServer");
-
-			System.out.println(info);
-			System.out.println(g);
-			// the list of fruits should be considered in your solution
-			Iterator<String> f_iter = game.getFruits().iterator();
-			while(f_iter.hasNext())
-			{System.out.println(f_iter.next());
-			}	
-			int rs = ttt.getInt("robots");
-			int src_node = 0;  // arbitrary node, you should start at one of the fruits
-			for(int a = 0;a<rs;a++) {
-				game.addRobot(src_node+a);
-			}
-
-			//only print robots
-			Iterator<String> f_iter2 = game.getRobots().iterator();
-			while(f_iter2.hasNext())
-			{System.out.println(f_iter2.next());
-			}	
-			if(on==0) {
-				//	MyGameGUI gui = new MyGameGUI();
-				gui.initGUI(gg);
-
-				gui.setVisible(true);
-				//game.startGame();
-				on=1;
-			}
-
-		}
-		catch (JSONException e) {e.printStackTrace();}
-		//return this.graph2;
-		return game;
-	}
-
-	 */
-
-
 
 
 	@Override
@@ -705,35 +570,22 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	@Override
 	public void mousePressed(MouseEvent e) {
 		// TODO Auto-generated method stub
-		//		if(play==0) {
-		//			JOptionPane.showMessageDialog(null, "game started");
-		//			play=1;
-		//			this.go();
-		//		}
+
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
 		// TODO Auto-generated method stub
 		if(type==0) {
-
-
+			draw=true;
 			int x = e.getX();
 			int y = e.getY();
 			Point3D location=new Point3D(x, y);
 			System.out.println(x);
 			System.out.println(y);
 			moveRobotsManual( game, graph2, location) ;
-			long first=System.currentTimeMillis();
-			int i=0;
-			while(i<10) {
-				if(System.currentTimeMillis()-first<1000) {
-					moveRobotsManual( game, graph2, location) ;
-					i++;
-				}
-
-			}
 			repaint();
+			draw=false;
 		}
 	}
 
@@ -760,14 +612,13 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				for(int i=0;i<log.size();i++) {
 					String robot_json = log.get(i);
 					try {
-						long first=System.currentTimeMillis();
-				
-							
-						
+
+
+
+
 						JSONObject line = new JSONObject(robot_json);
 						JSONObject ttt = line.getJSONObject("Robot");
 						int rid = ttt.getInt("id");
-						int src = ttt.getInt("src");
 						int dest = ttt.getInt("dest");
 
 
@@ -781,7 +632,9 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 					} 
 					catch (JSONException e) {e.printStackTrace();}
 				}
+
 			}
+			repaint();
 		}
 
 
@@ -815,9 +668,9 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				for(int i=0;i<log.size();i++) {
 					String robot_json = log.get(i);
 					try {
-					
-						
-						
+
+
+
 						JSONObject line = new JSONObject(robot_json);
 						JSONObject ttt = line.getJSONObject("Robot");
 						int rid = ttt.getInt("id");
@@ -841,6 +694,11 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		}
 
 	}
+
+
+
+
+
 	/**
 	 * a very simple random walk implementation!
 	 * @param g
@@ -930,7 +788,72 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	}
 
 	 */
+	public void insertRobots(game_service game, graph gg, int NumOfRobots) {
 
+		LinkedList<Integer> fruitLocation= fruit(game, gg,"Fruit");
+		List<edge_data> fruitLocationList= new LinkedList<edge_data>();
+		List<Integer> fruitTypeList= new LinkedList<Integer>();
+		int minValue=Integer.MIN_VALUE;
+		int mytype=-1;
+		edge_data big=null;
+
+		Collection<node_data> nodeList = gg.getV();
+		for(node_data node: nodeList) {
+			Collection<edge_data> edgeList2 = gg.getE(node.getKey());
+			for( edge_data edge: edgeList2 ) {
+				int x= edge.getDest();
+
+				double distPoints=Math.sqrt((gg.getNode(x).getLocation().y() - gg.getNode(node.getKey()).getLocation().y()) * (gg.getNode(x).getLocation().y() - gg.getNode(node.getKey()).getLocation().y()) + (gg.getNode(x).getLocation().x() - gg.getNode(node.getKey()).getLocation().x()) * (gg.getNode(x).getLocation().x() - gg.getNode(node.getKey()).getLocation().x()));
+
+				for (int i = 0; i < fruitLocation.size()-3; i=i+4) {
+					double xx=fruitLocation.get(i);
+					double yy=fruitLocation.get(i+1);
+					int type=fruitLocation.get(i+2);
+					int value=fruitLocation.get(i+3);
+
+					double dist1=Math.sqrt((gg.getNode(x).getLocation().y() - yy) * (gg.getNode(x).getLocation().y() - yy) + (gg.getNode(x).getLocation().x() - xx) * (gg.getNode(x).getLocation().x() - xx));
+					double dist2=Math.sqrt((gg.getNode(node.getKey()).getLocation().y() - yy) * (gg.getNode(node.getKey()).getLocation().y() - yy) + (gg.getNode(node.getKey()).getLocation().x() - xx) * (gg.getNode(node.getKey()).getLocation().x() - xx));
+					double cal=dist1+dist2-distPoints;
+					if(Math.abs(cal)<Math.abs(20) && value>=minValue ) {
+						big=edge;
+						minValue=value;
+						mytype=type;
+						System.out.println("in");
+						if(fruitLocationList.size()<NumOfRobots+1) {
+							fruitLocationList.add(big);
+							fruitTypeList.add(mytype);
+						}
+						else {
+							fruitLocationList.remove(1);
+							fruitTypeList.remove(1);
+							fruitLocationList.add(big);
+							fruitTypeList.add(mytype);
+						}
+					}
+
+				}
+
+			}
+
+		}
+		for (int i = 0; i < NumOfRobots; i++) {
+
+			big=fruitLocationList.get(i);
+			System.out.println(fruitLocationList.get(i));
+			if(minValue!=Integer.MIN_VALUE && fruitTypeList.get(i)==-1 && big!=null){
+
+				int max=Math.max(big.getSrc(), big.getDest());
+				game.addRobot(max);
+			}
+			if(minValue!=Integer.MIN_VALUE && fruitTypeList.get(i)==1  && big!=null){
+				int min=Math.min(big.getSrc(), big.getDest());
+				game.addRobot(min);
+			}
+
+		}
+
+
+	}
 	public List<node_data> fruitLocation(game_service game, graph gg,int src) {
 
 		LinkedList<Integer> fruitLocation= fruit(game, gg,"Fruit");
@@ -974,26 +897,26 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 					double yy=fruitLocation.get(i+1);
 					int type=fruitLocation.get(i+2);
 					int value=fruitLocation.get(i+3);
-					
+
 					double dist1=Math.sqrt((gg.getNode(x).getLocation().y() - yy) * (gg.getNode(x).getLocation().y() - yy) + (gg.getNode(x).getLocation().x() - xx) * (gg.getNode(x).getLocation().x() - xx));
 					//	double dist2=Math.sqrt((node.getLocation().y() - yy) * (node.getLocation().y() - yy) + (node.getLocation().x() - xx) * (node.getLocation().x() - xx));
 					double dist2=Math.sqrt((gg.getNode(node.getKey()).getLocation().y() - yy) * (gg.getNode(node.getKey()).getLocation().y() - yy) + (gg.getNode(node.getKey()).getLocation().x() - xx) * (gg.getNode(node.getKey()).getLocation().x() - xx));
 					double cal=dist1+dist2-distPoints;
 					if(Math.abs(cal)<Math.abs(15)) {//apple(low to high)
-//						edge.setTag(value);
+						//						edge.setTag(value);
 						fruitLocationList.add(edge);
 						//fruitTypeList.add(e)        need to enter if banana or apple !!!!!!
 					}
-//					if(Math.abs(cal)<Math.abs(15)&&type==-1) {//banana(high to low)
-//						edge.setTag(value);
-//						fruitTypeList.add(edge) ;
-						
-//					}
+					//					if(Math.abs(cal)<Math.abs(15)&&type==-1) {//banana(high to low)
+					//						edge.setTag(value);
+					//						fruitTypeList.add(edge) ;
+
+					//					}
 				}
 
 			}
 		}
-		
+
 		Graph_Algo ga = new Graph_Algo();
 		ga.init(gg);
 		double minApple= Integer.MAX_VALUE;
@@ -1004,7 +927,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		for(edge_data shortes :fruitLocationList ) {
 			int mysrc=shortes.getSrc();
 			int mydest=shortes.getDest();
-		//	if(mysrc<=mydest)
+			//	if(mysrc<=mydest)
 
 			if(src==mysrc) {
 				ans=ga.shortestPath(src, mydest);
@@ -1038,8 +961,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		}
 
 		return ans;
-	
-	/*	Graph_Algo ga = new Graph_Algo();
+
+		/*	Graph_Algo ga = new Graph_Algo();
 		ga.init(gg);
 		double minApple= Integer.MAX_VALUE;
 		int myApplekey=-1;
@@ -1078,7 +1001,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			}
 
 		}	
-		
+
 	//for banana
 		for(edge_data shortes :fruitTypeList ) {
 			int mysrc=shortes.getSrc();
@@ -1120,36 +1043,36 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				ans=ga.shortestPath(src, myApplekey);
 			else
 				ans=ga.shortestPath(src, myBananakey);
-			
+
 			return ans;
 		}
-		
-		
+
+
 	if(dest1<dest2)
 		ans=ga.shortestPath(src, myApplekey);
 	else if(dest2<dest1) {
 		ans=ga.shortestPath(src, myBananakey);
 	}
-	
-	
-	
+
+
+
 	else { System.out.println("blat");
 	ans=null;
 	}
 
 	return ans;
-	 */
-}
+		 */
+	}
 
 
 
-public static void main(String[] args) {
-	// TODO Auto-generated method stub
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 
-	MyGameGUI g = new MyGameGUI();
-	//g.setVisible(true);
+		MyGameGUI g = new MyGameGUI();
+		//g.setVisible(true);
 
-	/*	graph dgraph=new DGraph();
+		/*	graph dgraph=new DGraph();
 
 		game_service game=g.printLevelNum(10,g);
 game_service game=Game_Server.getServer(1);
@@ -1168,14 +1091,14 @@ String x= game.getFruits().get(0);
 		String results = game.toString();
 		System.out.println("Game Over: "+results);
 
-	 */	
+		 */	
 
-	//		g.initGUI(graph);
+		//		g.initGUI(graph);
 
-	//		g.setVisible(true);
+		//		g.setVisible(true);
 
 
-}
+	}
 
 
 
