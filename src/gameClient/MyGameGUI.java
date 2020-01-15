@@ -11,8 +11,7 @@ import java.io.IOException;
 import java.awt.Color;
 
 import java.awt.Graphics;
-
-
+import java.awt.Image;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -58,6 +57,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	private int on=0;
 	private int printMapAgain=0;
 	boolean draw;
+	private Image dbImage;
+	private Graphics dbg;
 
 	JButton Buttons;
 	JButton Start;
@@ -241,6 +242,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			System.exit(0);
 		}
 		if(type==0) {
+			repaint();
 			while(this.game.isRunning()) {}
 
 		}
@@ -387,13 +389,23 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 
-
 	@Override
 	public void paint (Graphics g)
 	{
+		dbImage=createImage(800,600 );
+		dbg = dbImage.getGraphics();
+		paintComponents(dbg);
+		g.drawImage(dbImage, 0, 0, this);
+
+	}
+
+
+	@Override
+	public void paintComponents(Graphics g)
+	{
 		//System.out.println("enterd paint");
 
-		super.paint(g);
+
 		System.out.println("yessss");
 
 
@@ -405,7 +417,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			if(game.getFruits()!=null) {
 				try {
 					choose=2;
-					/*		            String[] splitData = game.toString().split("[:\\}]");
+							            String[] splitData = game.toString().split("[:\\}]");
 			            splitData[6]=splitData[6].substring(1,8);
 			            BufferedImage graph_image;
 						try {
@@ -416,7 +428,18 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 							e.printStackTrace();
 						}
 
-					 */		           
+					 	           
+
+					BufferedImage apple_image;	
+					BufferedImage banana_image;
+					try {
+						apple_image = ImageIO.read(new File("data/apple.jpg"));
+						banana_image= ImageIO.read(new File("data/banana.jpeg"));
+
+
+
+
+
 
 					LinkedList<Integer> a= fruit(game, graph2,"Fruit");
 
@@ -424,12 +447,15 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 						if(a.get(i+2)==-1) {
 							g.setColor(Color.gray);
-							g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 12, 12);		
+							//	g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 12, 12);		
+							g.drawImage(apple_image, (int)a.get(i)-5, (int)a.get(i+1)+5,40, 40, null);
 						}
+						
 
 						if(a.get(i+2)==1) {
 							g.setColor(Color.black);
-							g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 12, 12);		
+							//g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 12, 12);
+							g.drawImage(banana_image, (int)a.get(i)-5, (int)a.get(i+1)+5,40, 40, null);
 						}
 
 					}	
@@ -450,7 +476,10 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 					}
-
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 
 				} catch (JSONException e) {
 					// TODO Auto-generated catch block
@@ -466,17 +495,17 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		//if(game.getRobots()!=null) {
 		if(game!=null) {
 			try {	
-				BufferedImage fruit_image;
+				BufferedImage robot_image;
 
 				try {
-					fruit_image = ImageIO.read(new File("data/robot1.png"));
+					robot_image = ImageIO.read(new File("data/robot.png"));
 
 
 					LinkedList<Integer> a= fruit(game, graph2,"Robot");
 					g.setColor(Color.red);
 					for(int i=0 ; i<a.size()-1; i=i+2) {
 						//	g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 15, 15);		
-						g.drawImage(fruit_image, (int)a.get(i)-5, (int)a.get(i+1)+5,40, 40, null);
+						g.drawImage(robot_image, (int)a.get(i)-5, (int)a.get(i+1)+5,40, 40, null);
 					}	
 
 
