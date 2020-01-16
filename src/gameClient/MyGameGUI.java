@@ -51,13 +51,10 @@ import gameClient.*;
 public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,Runnable{
 
 
-	private static boolean global_flag;
-	private static int global_key;
-	private int mc;
+	
 	private int choose=0;
 	private int type=-1;
 	private int on=0;
-	private int printMapAgain=0;
 	boolean draw;
 	private Image dbImage;
 	private Graphics dbg;
@@ -86,23 +83,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 	public MyGameGUI(graph g) {
-		this.graph2=g;
-		this.mc=g.getMC();
-		this.manual=new JButton("manual");
-		this.automatic=new JButton("automatic");
-		initGUI();
+		
 	}
-
-
-
-
-	public MyGameGUI(graph g,int x) {
-		this.graph2=g;
-		this.mc=g.getMC();
-		this.game= Game_Server.getServer(x);
-		initGUI();
-	}
-
 
 	public MyGameGUI()
 	{
@@ -114,14 +96,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			this.addMouseListener(this);
 			this.setTitle("The Robots Game");
 
-			//MyGameGUI.dgraph=new DGraph();
-			//DGraph dgraph = new DGraph();
-			//String g = choose_level();
-			//	dgraph.init(g);
-			//	set_scale(game);
-
-			//System.out.println("yessss");
-			//choose the type of game
+	
 			if(choose==0) {
 				String a[]= {"manual","outomatic"};
 				type=JOptionPane.showOptionDialog(null, "choose your type of game", "Click a button", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, a, null);	
@@ -429,32 +404,13 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	@Override
 	public void paintComponents(Graphics g)
 	{
-		//System.out.println("enterd paint");
-
-
-		//System.out.println("yessss");
-
-
-		//print fruits(black color) 
-		//if(this.game!=null) {
+		
 		if(choose==1 || on==1) {
-			//	System.out.println("het");
+			
 
 			if(game.getFruits()!=null) {
 				try {
 					choose=2;
-					/*				String[] splitData = game.toString().split("[:\\}]");
-					splitData[6]=splitData[6].substring(1,8);
-					BufferedImage graph_image;
-					try {
-						graph_image = ImageIO.read(new File(splitData[6]+".png"));
-						g.drawImage(graph_image,30,60,null);
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-					 */
-
 
 					BufferedImage apple_image;	
 					BufferedImage banana_image;
@@ -462,25 +418,18 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 						apple_image = ImageIO.read(new File("data/apple.jpg"));
 						banana_image= ImageIO.read(new File("data/banana.jpeg"));
 
-
-
-
-
-
 						LinkedList<Integer> a= fruit(game, graph2,"Fruit");
 
 						for(int i=0 ; i<a.size()-3; i=i+4) {
 
 							if(a.get(i+2)==-1) {
-								g.setColor(Color.gray);
-								//	g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 12, 12);		
+								g.setColor(Color.gray);	
 								g.drawImage(apple_image, (int)a.get(i)-5, (int)a.get(i+1)+5,30, 30, null);
 							}
 
 
 							if(a.get(i+2)==1) {
 								g.setColor(Color.black);
-								//g.fillOval((int)a.get(i)-5, (int)a.get(i+1)+5, 12, 12);
 								g.drawImage(banana_image, (int)a.get(i)-5, (int)a.get(i+1)+5,30, 30, null);
 							}
 
@@ -605,6 +554,9 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	}
 
 
+	
+	
+	
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
