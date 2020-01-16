@@ -98,10 +98,10 @@ public class DGraph implements graph,Serializable {
 				 String[] str = pos.split(",");
 				 xscale=Double.parseDouble(str[0]);
 				 
-				 int xp=(int)scale(xscale, xmin, xmax, 0+40, 800-40);
+				 int xp=(int)scale(xscale, xmin, xmax, 0+40, 1300-40);
 				 
 				 yscale=Double.parseDouble(str[1]);
-				 int yp=(int)scale(yscale, ymin, ymax, 0+80, 600-40);
+				 int yp=(int)scale(yscale, ymin, ymax, 0+80, 700-40);
 				 
 				 
 				 Point3D p = new Point3D(xp,yp);
