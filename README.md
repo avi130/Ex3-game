@@ -2,11 +2,11 @@ The-Maze-Of-Waze-Navigation-Game
 
 The main goal of the project is to:
 
-1.Develop logic for a game in which a group of robots must perform movement tasks (fruit collection) on a weighted graph.
+- Develop logic for a game in which a group of robots must perform movement tasks (fruit collection) on a weighted graph.
 
-2.Create KML files that exemplify the game in google earth.
+- Create KML files that exemplify the game in google earth.
 
-3.Collect as many fruits as possible and perform minimum robots moves during the limited time of the game.
+- Collect as many fruits as possible and perform minimum robots moves during the limited time of the game.
 
 There are two modes of game:
 - Manual mode: you place your robots on the nodes that you want, 
