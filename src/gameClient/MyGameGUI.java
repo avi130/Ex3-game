@@ -181,7 +181,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			long dt=20;
 			if(type==1) {
 				while(this.game.isRunning()) {
-					this.moveRobots(this.game, this.graph2);
+					myAlgo.moveRobots(this.game, this.graph2);
 
 					if(ind%2==0) {repaint();}
 					TimeUnit.MILLISECONDS.sleep(dt);
@@ -410,6 +410,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	 * @param gg
 	 * @param log
 	 */
+	/*
 	public void moveRobots(game_service game, graph gg) {
 
 		if(type==1) {
@@ -460,7 +461,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	}
 
-
+*/
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -24,16 +24,23 @@ import dataStructure.node_data;
 import utils.Point3D;
 
 public class algoGame implements algo {
-	
-	
+
+
 	public algoGame() {
 	}
+
+	private int prevtNode;
+	private int nextNode;
+	private int counter;
 	
-	
-	
-	
-public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
-		
+	private int idr;
+	private int srcr;
+	private int destr;
+	private boolean folowr;
+
+
+	public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
+
 		LinkedList<Integer> fruitLocation= fruits.FruitInfo(game, gg);
 		List<edge_data> fruitLocationList= new LinkedList<edge_data>();
 		LinkedList<edge_data> fruitTypeList= new LinkedList<edge_data>();
@@ -66,6 +73,10 @@ public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
 			}
 		}
 
+		
+		
+		
+		
 		Graph_Algo ga = new Graph_Algo();
 		ga.init(gg);
 		double minApple= Integer.MAX_VALUE;
@@ -80,7 +91,17 @@ public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
 				ans=ga.shortestPath(src, mydest);
 				return ans;
 			}
+		
 
+			if(folowr==true) {
+			
+			ans=ga.shortestPath(src, fruitLocationList.get(1).getDest());
+			return ans;
+			
+			
+		}
+			
+			
 
 
 			double x=ga.shortestPathDist(src, mysrc);
@@ -106,118 +127,128 @@ public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
 		else { System.out.println("blat");
 		ans=null;
 		}
-		System.out.println(ans.get(1).getKey());
+		
+		
+		
 		return ans;
 	}
-	
-	
-	
-public void insertRobots(game_service game, graph gg, int NumOfRobots) {
 
-	LinkedList<Integer> fruitLocation=  fruits.FruitInfo(game, gg);
-	List<edge_data> fruitLocationList= new LinkedList<edge_data>();
-	List<Integer> fruitTypeList= new LinkedList<Integer>();
-	List<Integer> fruitValueList= new LinkedList<Integer>();
-	int minValue=Integer.MIN_VALUE;
-	int mytype=-1;
-	edge_data big=null;
 
-	Collection<node_data> nodeList = gg.getV();
-	for(node_data node: nodeList) {
-		Collection<edge_data> edgeList2 = gg.getE(node.getKey());
-		for( edge_data edge: edgeList2 ) {
-			int x= edge.getDest();
 
-			double distPoints=Math.sqrt((gg.getNode(x).getLocation().y() - gg.getNode(node.getKey()).getLocation().y()) * (gg.getNode(x).getLocation().y() - gg.getNode(node.getKey()).getLocation().y()) + (gg.getNode(x).getLocation().x() - gg.getNode(node.getKey()).getLocation().x()) * (gg.getNode(x).getLocation().x() - gg.getNode(node.getKey()).getLocation().x()));
+	public void insertRobots(game_service game, graph gg, int NumOfRobots) {
 
-			for (int i = 0; i < fruitLocation.size()-3; i=i+4) {
-				double xx=fruitLocation.get(i);
-				double yy=fruitLocation.get(i+1);
-				int type=fruitLocation.get(i+2);
-				int value=fruitLocation.get(i+3);
+		LinkedList<Integer> fruitLocation=  fruits.FruitInfo(game, gg);
+		List<edge_data> fruitLocationList= new LinkedList<edge_data>();
+		List<Integer> fruitTypeList= new LinkedList<Integer>();
+		List<Integer> fruitValueList= new LinkedList<Integer>();
+		int minValue=Integer.MIN_VALUE;
+		int mytype=-1;
+		edge_data big=null;
 
-				double dist1=Math.sqrt((gg.getNode(x).getLocation().y() - yy) * (gg.getNode(x).getLocation().y() - yy) + (gg.getNode(x).getLocation().x() - xx) * (gg.getNode(x).getLocation().x() - xx));
-				double dist2=Math.sqrt((gg.getNode(node.getKey()).getLocation().y() - yy) * (gg.getNode(node.getKey()).getLocation().y() - yy) + (gg.getNode(node.getKey()).getLocation().x() - xx) * (gg.getNode(node.getKey()).getLocation().x() - xx));
-				double cal=dist1+dist2;
-				double cal2=distPoints;
+		Collection<node_data> nodeList = gg.getV();
+		for(node_data node: nodeList) {
+			Collection<edge_data> edgeList2 = gg.getE(node.getKey());
+			for( edge_data edge: edgeList2 ) {
+				int x= edge.getDest();
 
-				if(Math.abs(cal-cal2)<Math.abs(0.1) && value>=minValue ) {
+				double distPoints=Math.sqrt((gg.getNode(x).getLocation().y() - gg.getNode(node.getKey()).getLocation().y()) * (gg.getNode(x).getLocation().y() - gg.getNode(node.getKey()).getLocation().y()) + (gg.getNode(x).getLocation().x() - gg.getNode(node.getKey()).getLocation().x()) * (gg.getNode(x).getLocation().x() - gg.getNode(node.getKey()).getLocation().x()));
 
-					big=edge;
-					minValue=value;
-					mytype=type;
-					if(fruitLocationList.size()<NumOfRobots+1) {
-						fruitLocationList.add(big);
-						fruitTypeList.add(mytype);
-						fruitValueList.add(minValue);
-					}
-					else {
-						int min=Integer.MAX_VALUE;
-						for (int j = 0; j < fruitTypeList.size(); j++) {
-							if(fruitValueList.get(j)<min)
-								min=fruitValueList.get(j);
+				for (int i = 0; i < fruitLocation.size()-3; i=i+4) {
+					double xx=fruitLocation.get(i);
+					double yy=fruitLocation.get(i+1);
+					int type=fruitLocation.get(i+2);
+					int value=fruitLocation.get(i+3);
+
+					double dist1=Math.sqrt((gg.getNode(x).getLocation().y() - yy) * (gg.getNode(x).getLocation().y() - yy) + (gg.getNode(x).getLocation().x() - xx) * (gg.getNode(x).getLocation().x() - xx));
+					double dist2=Math.sqrt((gg.getNode(node.getKey()).getLocation().y() - yy) * (gg.getNode(node.getKey()).getLocation().y() - yy) + (gg.getNode(node.getKey()).getLocation().x() - xx) * (gg.getNode(node.getKey()).getLocation().x() - xx));
+					double cal=dist1+dist2;
+					double cal2=distPoints;
+
+					if(Math.abs(cal-cal2)<Math.abs(0.1) && value>=minValue ) {
+
+						big=edge;
+						minValue=value;
+						mytype=type;
+						if(fruitLocationList.size()<NumOfRobots+1) {
+							
+							fruitLocationList.add(big);
+							fruitTypeList.add(mytype);
+							fruitValueList.add(minValue);
 						}
-						fruitLocationList.remove(1);
-						fruitTypeList.remove(1);
-						fruitLocationList.add(big);
-						fruitTypeList.add(mytype);
+						else {
+							int min=Integer.MAX_VALUE;
+							for (int j = 0; j < fruitTypeList.size(); j++) {
+								if(fruitValueList.get(j)<min)
+									min=fruitValueList.get(j);
+							}	
+							fruitLocationList.remove(1);
+							fruitTypeList.remove(1);
+							fruitLocationList.add(big);
+							fruitTypeList.add(mytype);
+						}
 					}
 				}
 			}
 		}
-	}
-	for (int i = 0; i < NumOfRobots; i++) {
-
-		big=fruitLocationList.get(i);
-		if(minValue!=Integer.MIN_VALUE && fruitTypeList.get(i)==-1 && big!=null){
-
-			int max=Math.max(big.getSrc(), big.getDest());
-			game.addRobot(max);
+		if(fruitLocationList.size()< NumOfRobots) {
+			
+			edge_data extra=fruitLocationList.get(0);
+			fruitLocationList.add(extra);
+			fruitTypeList.add(fruitTypeList.get(0));
 		}
-		if(minValue!=Integer.MIN_VALUE && fruitTypeList.get(i)==1  && big!=null){
-			int min=Math.min(big.getSrc(), big.getDest());
-			game.addRobot(min);
+		
+		for (int i = 0; i < NumOfRobots; i++) {
+			System.out.println("NumOfRobots  "+NumOfRobots);
+			big=fruitLocationList.get(i);
+			if(minValue!=Integer.MIN_VALUE && fruitTypeList.get(i)==-1 && big!=null){
+
+				int max=Math.max(big.getSrc(), big.getDest());
+				game.addRobot(max);
+			}
+			if(minValue!=Integer.MIN_VALUE && fruitTypeList.get(i)==1  && big!=null){
+				int min=Math.min(big.getSrc(), big.getDest());
+				game.addRobot(min);
+			}
+
+		}
+	}
+
+
+
+	public int nextNode(game_service game,graph g, int src ) {
+
+		int ans = -1;
+		Collection<edge_data> ee = g.getE(src);
+		Iterator<edge_data> itr = ee.iterator();
+		List<node_data> fruitLocation= fruitLocation(game,g,src);
+	
+		if (fruitLocation!=null) {
+			node_data nodeAns= fruitLocation.get(1);
+			int keyInt=nodeAns.getKey();
+			System.out.println("nextNode is"+keyInt);
+			return keyInt;
+
 		}
 
-	}
-}
-	
-	
 
-public int nextNode(game_service game,graph g, int src ) {
+		if(fruitLocation==null)
+			System.out.println("avi");
 
-	int ans = -1;
-	Collection<edge_data> ee = g.getE(src);
-	Iterator<edge_data> itr = ee.iterator();
-	//edge_data a=fruitLocation(game,g,src);
-	List<node_data> fruitLocation= fruitLocation(game,g,src);
-	if (fruitLocation!=null) {
-		node_data nodeAns= fruitLocation.get(1);
-		int keyInt=nodeAns.getKey();
-		System.out.println("nextNode is"+keyInt);
-		return keyInt;
+		int s = ee.size();
+		int r = (int)(Math.random()*s);
+		int i=0;
+		while(i<r)
+		{itr.next();i++;}
+		ans = itr.next().getDest();
 
+		return ans;
 	}
 
 
-	if(fruitLocation==null)
-		System.out.println("avi");
-
-	int s = ee.size();
-	int r = (int)(Math.random()*s);
-	int i=0;
-	while(i<r)
-	{itr.next();i++;}
-	ans = itr.next().getDest();
-
-	return ans;
-}
 
 
+	public void moveRobotsManual(game_service game, graph gg,Point3D location,int currentRobot) {
 
-
-public void moveRobotsManual(game_service game, graph gg,Point3D location,int currentRobot) {
-	
 		double x=location.x();
 		double y = location.y();
 		int dest1=0;
@@ -252,60 +283,73 @@ public void moveRobotsManual(game_service game, graph gg,Point3D location,int cu
 				catch (JSONException e) {e.printStackTrace();}
 			}
 		}
-		
-}
+
+	}
 
 
+	public void moveRobots(game_service game, graph gg) {
+			folowr=false;
+			List<String> log = game.move();
+			if(log!=null) {
 
+				for(int i=0;i<log.size();i++) {
+					String robot_json = log.get(i);
+					try {
+						JSONObject line = new JSONObject(robot_json);
+						JSONObject ttt = line.getJSONObject("Robot");
+						int rid = ttt.getInt("id");
+						int src = ttt.getInt("src");
+						int dest = ttt.getInt("dest");
 
-public void moveRobots(game_service game, graph gg) {
-
-	
-		List<String> log = game.move();
-		if(log!=null) {
-
-			for(int i=0;i<log.size();i++) {
-				String robot_json = log.get(i);
-				try {
-					JSONObject line = new JSONObject(robot_json);
-					JSONObject ttt = line.getJSONObject("Robot");
-					int rid = ttt.getInt("id");
-					int src = ttt.getInt("src");
-					int dest = ttt.getInt("dest");
-
-					if(dest==-1) {	
-//						List<node_data> fruitLocation= myAlgo.fruitLocation(game,gg,src,myFrut.FruitInfo(game, gg));
-						dest = nextNode(game,gg, src);
+						if(rid!=idr && srcr==src && destr==dest) {
+							folowr=true;
+						}
+							idr=rid;
+							srcr=src;
+							destr=dest;
 						
-								System.out.println("wrong");
-								Collection<edge_data> edges= gg.getE(src);
-								for(edge_data newNext : edges) {
-									
-										dest=newNext.getDest();
-								
+						
+						
+						
+						if(dest==-1) {	
+							dest = nextNode(game,gg, src);
+							if(prevtNode==dest) {
+								counter++;
+								if(counter==3) {
+									System.out.println("wrong");
+									Collection<edge_data> edges= gg.getE(src);
+									for(edge_data newNext : edges) {
+										if(newNext.getDest()!=dest) {
+											dest=newNext.getDest();
+											counter=0;
+											break;
+										}
 									}
 								}
-					
+							}
 
-						game.chooseNextEdge(rid, dest);
+							prevtNode=src;
+							nextNode=dest;
 
-					}
-				
-				catch (JSONException e) {e.printStackTrace();}
+							game.chooseNextEdge(rid, dest);
+
+						}
+					} 
+					catch (JSONException e) {e.printStackTrace();}
+				}
 			}
-		}
-
-
-}
-
-
-
-
-
-
-
+		
 	
-	
-	
+
+	}
+
+
+
+
+
+
+
+
+
 
 }
