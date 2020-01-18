@@ -1,4 +1,4 @@
-package gameClient;
+package gameElements;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -19,7 +19,7 @@ import gameClient.*;
 import dataStructure.graph;
 import utils.Point3D;
 
-public class fruits  {
+public class fruits implements fruit_data  {
 
 	game_service game;
 	graph praph;
@@ -61,7 +61,7 @@ public class fruits  {
 		}
 	}
 
-	
+	/*
 	public void locate(double xmin, double ymin, double ymax, double xmax, LinkedList<Integer> a, game_service game) {
 		for (String fruit : game.getFruits()) {
 
@@ -91,7 +91,7 @@ public class fruits  {
 		}
 	}
 
-		
+		*/
 
 	public int getID(fruits x) {
 		return x.id;

@@ -1,4 +1,4 @@
-package gameClient;
+package gameElements;
 
 import java.util.Collection;
 import java.util.LinkedList;
@@ -11,7 +11,7 @@ import Server.game_service;
 import dataStructure.graph;
 import utils.Point3D;
 
-public class robots implements IGameClient{
+public class robots implements robot_data{
 
 
 	game_service game;

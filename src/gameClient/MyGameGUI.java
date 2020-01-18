@@ -48,6 +48,9 @@ import utils.Point3D;
 
 import javax.swing.JFrame;
 import gameClient.*;
+import gameElements.algoGame;
+import gameElements.fruits;
+import gameElements.robots;
 public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,Runnable{
 
 
@@ -80,7 +83,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	game_service game;
 	fruits myFrut = new fruits();
 	robots myRobot = new robots();
-	algo myAlgo = new algo();
+	algoGame myAlgo = new algoGame();
 
 
 	public MyGameGUI(graph g) {
@@ -138,7 +141,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				JSONObject	line = new JSONObject(info);
 				JSONObject ttt = line.getJSONObject("GameServer");
 				int rs = ttt.getInt("robots");
-				myAlgo.insertRobots(this.game,graph2,rs, myFrut.FruitInfo(game, gg));
+				myAlgo.insertRobots(this.game,graph2,rs);
 
 			}
 

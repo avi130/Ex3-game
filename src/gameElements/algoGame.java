@@ -1,4 +1,4 @@
-package gameClient;
+package gameElements;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -23,15 +23,16 @@ import dataStructure.graph;
 import dataStructure.node_data;
 import utils.Point3D;
 
-public class algo  {
+public class algoGame implements algo {
 	
 	
-	public algo() {
+	public algoGame() {
 	}
 	
 	
-public static List<node_data> fruitLocation(game_service game, graph gg,int src,LinkedList<Integer> fruitLocation) {
+public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
 		
+		LinkedList<Integer> fruitLocation= fruits.FruitInfo(game, gg);
 		List<edge_data> fruitLocationList= new LinkedList<edge_data>();
 		LinkedList<edge_data> fruitTypeList= new LinkedList<edge_data>();
 		List<node_data> ans= new LinkedList<node_data>();
@@ -67,8 +68,6 @@ public static List<node_data> fruitLocation(game_service game, graph gg,int src,
 		ga.init(gg);
 		double minApple= Integer.MAX_VALUE;
 		int myApplekey=-1;
-		double minBanana= Integer.MAX_VALUE;
-		int myBananakey=-1;
 
 		for(edge_data shortes :fruitLocationList ) {
 			int mysrc=shortes.getSrc();
@@ -111,9 +110,9 @@ public static List<node_data> fruitLocation(game_service game, graph gg,int src,
 	
 	
 	
-public void insertRobots(game_service game, graph gg, int NumOfRobots ,LinkedList<Integer> fruitLocation) {
+public void insertRobots(game_service game, graph gg, int NumOfRobots) {
 
-	
+	LinkedList<Integer> fruitLocation=  fruits.FruitInfo(game, gg);
 	List<edge_data> fruitLocationList= new LinkedList<edge_data>();
 	List<Integer> fruitTypeList= new LinkedList<Integer>();
 	List<Integer> fruitValueList= new LinkedList<Integer>();
@@ -189,7 +188,7 @@ public int nextNode(game_service game,graph g, int src ) {
 	Collection<edge_data> ee = g.getE(src);
 	Iterator<edge_data> itr = ee.iterator();
 	//edge_data a=fruitLocation(game,g,src);
-	List<node_data> fruitLocation= fruitLocation(game,g,src,fruits.FruitInfo(game, g));
+	List<node_data> fruitLocation= fruitLocation(game,g,src);
 	if (fruitLocation!=null) {
 		node_data nodeAns= fruitLocation.get(1);
 		int keyInt=nodeAns.getKey();
