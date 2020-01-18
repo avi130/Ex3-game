@@ -30,6 +30,8 @@ public class algoGame implements algo {
 	}
 	
 	
+	
+	
 public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
 		
 		LinkedList<Integer> fruitLocation= fruits.FruitInfo(game, gg);
@@ -53,7 +55,7 @@ public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
 					double dist1=Math.sqrt((gg.getNode(x).getLocation().y() - yy) * (gg.getNode(x).getLocation().y() - yy) + (gg.getNode(x).getLocation().x() - xx) * (gg.getNode(x).getLocation().x() - xx));
 					double dist2=Math.sqrt((gg.getNode(node.getKey()).getLocation().y() - yy) * (gg.getNode(node.getKey()).getLocation().y() - yy) + (gg.getNode(node.getKey()).getLocation().x() - xx) * (gg.getNode(node.getKey()).getLocation().x() - xx));
 					double cal=dist1+dist2-distPoints;
-					if(Math.abs(cal)<Math.abs(0.01)) {
+					if(Math.abs(cal)<Math.abs(0.1)) {
 						fruitLocationList.add(edge);
 						System.out.println("in in in in ");
 						System.out.println("nextNode is"+edge.getDest());
@@ -252,6 +254,51 @@ public void moveRobotsManual(game_service game, graph gg,Point3D location,int cu
 		}
 		
 }
+
+
+
+
+public void moveRobots(game_service game, graph gg) {
+
+	
+		List<String> log = game.move();
+		if(log!=null) {
+
+			for(int i=0;i<log.size();i++) {
+				String robot_json = log.get(i);
+				try {
+					JSONObject line = new JSONObject(robot_json);
+					JSONObject ttt = line.getJSONObject("Robot");
+					int rid = ttt.getInt("id");
+					int src = ttt.getInt("src");
+					int dest = ttt.getInt("dest");
+
+					if(dest==-1) {	
+//						List<node_data> fruitLocation= myAlgo.fruitLocation(game,gg,src,myFrut.FruitInfo(game, gg));
+						dest = nextNode(game,gg, src);
+						
+								System.out.println("wrong");
+								Collection<edge_data> edges= gg.getE(src);
+								for(edge_data newNext : edges) {
+									
+										dest=newNext.getDest();
+								
+									}
+								}
+					
+
+						game.chooseNextEdge(rid, dest);
+
+					}
+				
+				catch (JSONException e) {e.printStackTrace();}
+			}
+		}
+
+
+}
+
+
 
 
 

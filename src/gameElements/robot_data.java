@@ -22,5 +22,4 @@ public interface robot_data {
 	public void locate(double xmin, double ymin, double ymax, double xmax, LinkedList<Integer> a, game_service game);
 
 	
-
 }

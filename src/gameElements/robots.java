@@ -2,18 +2,23 @@ package gameElements;
 
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.List;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import Server.game_service;
+import dataStructure.edge_data;
 import dataStructure.graph;
+import gameClient.MyGameGUI;
 import utils.Point3D;
+import gameElements.*;
+
+
 
 public class robots implements robot_data{
-
-
+	
 	game_service game;
 	graph praph;
 	int id;
@@ -23,7 +28,7 @@ public class robots implements robot_data{
 	double value;
 	Point3D pos;
 
-	
+
 	public robots(int id, int speed, int src, int dest, Point3D pos, double value) {
 		this.id = id;
 		this.speed = speed;
@@ -31,9 +36,9 @@ public class robots implements robot_data{
 		this.dest = dest;
 		this.pos = pos;
 		this.value = value;
-		
+
 	}
-	
+
 	public robots() {}
 
 	public LinkedList<Integer> robotsInfo(game_service game, graph p) {
@@ -72,7 +77,7 @@ public class robots implements robot_data{
 					ymax=yscale;
 				}
 			}
-			
+
 
 
 			for( String fruit: game.getRobots())
@@ -96,24 +101,24 @@ public class robots implements robot_data{
 
 
 			}
-		 
 
-	} catch (Exception e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		return a;
 	}
 
-	return a;
-}
 
-	
 	@Override
 	public void locate(double xmin, double ymin, double ymax, double xmax, LinkedList<Integer> a, game_service game) {
-	for( String fruit: game.getRobots())
-	{
+		for( String fruit: game.getRobots())
+		{
 
 
-		JSONObject ff;
+			JSONObject ff;
 			try {
 				ff = new JSONObject(fruit);
 
@@ -133,14 +138,12 @@ public class robots implements robot_data{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	}
+		}
 
 
 	}
 
-
-
-
+	
 	public int getID(robots x) {
 		return x.id;
 	}

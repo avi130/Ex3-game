@@ -29,11 +29,13 @@ public interface  algo {
     
     
     public int nextNode(game_service game,graph g, int src );
+
     
     
     public void moveRobotsManual(game_service game, graph gg,Point3D location,int currentRobot);
 	
-	
+    
+    public void moveRobots(game_service game, graph gg);
 	
 	
 	
