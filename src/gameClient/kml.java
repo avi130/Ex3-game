@@ -10,7 +10,6 @@ import java.time.format.DateTimeFormatter;
  * this class responsible to create 24 kml files
  * the file can be loaded to google earth
  * and view the game course in a specific level
- * the kml relevant only for auto game.
  */
 public class kml {
     /**
@@ -19,7 +18,7 @@ public class kml {
      * StringBuffer str- the string will be written there.
      */
 
-    private int stage;
+    private int level;
     private StringBuilder info;
 
     /**
