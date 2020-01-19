@@ -7,12 +7,17 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- * This class represent a KML_Logger object that creates a KML file for each game.
- * KML_Logger attributes :
- * 1.stage
- * 2.StringBuilder - to concat all the game info.
+ * this class responsible to create 24 kml files
+ * the file can be loaded to google earth
+ * and view the game course in a specific level
+ * the kml relevant only for auto game.
  */
 public class kml {
+    /**
+     * private data types of the class
+     * int level
+     * StringBuffer str- the string will be written there.
+     */
 
     private int stage;
     private StringBuilder info;
@@ -22,8 +27,8 @@ public class kml {
      */
     public  kml(){}
     /**
-     * Constructor, initialize the object and concat the standard start of a KML file.
-     * @param level
+     * this method initialize the object and concat the standard start of a KML file.
+     * @param level - represent the stage
      */
     public kml(int level) {
         this.stage = level;
@@ -32,7 +37,7 @@ public class kml {
     }
 
     /**
-     * Concat the opening string for the KML file.
+     * this method Concat the opening string for the KML file.
      * Sets the elements of the game such as: node, fruit and robot that will be added as a placemark to the KML file.
      */
     public void kmlStartFile()
@@ -79,10 +84,10 @@ public class kml {
     }
 
     /**
-     * Add placemark to the KML file.
+     * this methos adds placemark to the KML file.
      * Each game element has a placemark id.
-     * @param id
-     * @param location
+     * @param id 
+     * @param location 
      */
     public void addPlaceMark(String id, String location)
     {
