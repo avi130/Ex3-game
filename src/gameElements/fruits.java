@@ -31,7 +31,7 @@ public class fruits implements fruit_data  {
 
 	public fruits() {
 	}
-	 /**
+     /**
      *  copy constructor according to the given values for type,value and pos.
      * @ param type - apple/banana
      * @ param value 
@@ -46,7 +46,7 @@ public class fruits implements fruit_data  {
 
 	}
 
-	 /**
+     /**
      *  Constructor init fruit attributes from a JSON string input. Separates the different values
      * from jsonString and sets them to their respective values. Pos The function separates the x and y values and
      * creates the 3D point for pos.
@@ -143,7 +143,7 @@ public class fruits implements fruit_data  {
 	
 	
 	
-		 /**
+     /**
      *  Constructor init fruit attributes from a JSON string input.
      * @ param jsonSTR
      */
@@ -170,8 +170,7 @@ public class fruits implements fruit_data  {
 	
 	
 	
-	
-	   /**
+     /**
      *  The function gets a game and a graph and returns a linked list containing all
      * the information about the fruits.The function converts the coordinates of the x and y values 
      * of the fruits from STDraw to jframe and adds to the list according to the values
