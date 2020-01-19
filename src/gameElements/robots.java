@@ -29,9 +29,7 @@ public class robots implements robot_data{
 	Point3D pos;
 	Point3D gui_location;
 
-
-	public robots(int id, int speed, int src, int dest, Point3D pos, double value) {
-     /**
+    /**
      *  copy constructor according to the given values.
      * @ param id 
      * @ param speed - represent the speed of the robot
@@ -40,6 +38,8 @@ public class robots implements robot_data{
      * @ param pos - represent the position
      * @ param value 
      */
+	public robots(int id, int speed, int src, int dest, Point3D pos, double value) {
+ 
 		this.id = id;
 		this.speed = speed;
 		this.src = src;
@@ -53,12 +53,12 @@ public class robots implements robot_data{
 
 	
 	
-	
-	public robots(String jsonSTR) {
-	 /**
+		 /**
      *  Constructor init robot attributes from a JSON string input. 
      * @ param jsonSTR
      */
+	public robots(String jsonSTR) {
+
 	
 		
 
@@ -86,8 +86,6 @@ public class robots implements robot_data{
 	
 	
 	
-
-	public LinkedList<Integer> robotsInfo(game_service game, graph p) {
 	/**
      *  The function gets a game and a graph and returns a linked list containing all the information about the robots.
      * The function converts the coordinates of the x and y values of the robots from STDraw
@@ -95,6 +93,8 @@ public class robots implements robot_data{
      * @ param game - represent game
      * @ param p - represent graph
      */
+	public LinkedList<Integer> robotsInfo(game_service game, graph p) {
+
 		
 		LinkedList<Integer> a= new LinkedList<Integer>();
 		try {
