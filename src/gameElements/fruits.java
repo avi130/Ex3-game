@@ -33,6 +33,13 @@ public class fruits implements fruit_data  {
 	}
 
 	public fruits(int type, double value, Point3D p) {
+	 /**
+     *  copy constructor according to the given values for type,value and pos.
+     * @ param type - apple/banana
+     * @ param value 
+     * @ param p - represent point
+     */
+		
 		this.type = type;
 		this.value = value;
 		this.pos = p;
@@ -41,6 +48,12 @@ public class fruits implements fruit_data  {
 
 
 	public void init(String jsonString) {
+	 /**
+     *  Constructor init fruit attributes from a JSON string input. Separates the different values
+     * from jsonString and sets them to their respective values. Pos The function separates the x and y values and
+     * creates the 3D point for pos.
+     * @ param jsonString
+     */
 		try {
 			JSONObject fruit = new JSONObject(jsonString);
 			JSONObject ttt = fruit.getJSONObject("Fruit");
@@ -132,6 +145,10 @@ public class fruits implements fruit_data  {
 	
 	
 	public fruits(String jsonSTR) {
+	 /**
+     *  Constructor init fruit attributes from a JSON string input.
+     * @ param jsonSTR
+     */
         this();
         try {
             JSONObject fruit = new JSONObject(jsonSTR);
@@ -156,7 +173,12 @@ public class fruits implements fruit_data  {
 	
 	
 	public static LinkedList<Integer> FruitInfo(game_service game, graph p) {
-
+		
+     /**
+     *  Constructor init fruit attributes from a JSON string input.
+     * @ param game - represent game
+     * @ param g - represent graph
+     */
 		LinkedList<Integer> a= new LinkedList<Integer>();
 		try {
 			String g = game.getGraph();
