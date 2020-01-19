@@ -94,18 +94,18 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	robots myRobot = new robots();
 	algoGame myAlgo = new algoGame();
 
-
-	public MyGameGUI(graph g) {
-     /**
+ /**
      * Initialize new MyGameGUI() 
      * @param g - represnt graph
      */
+	public MyGameGUI(graph g) {
+    
 	}
-
-	public MyGameGUI()
-     /**
+ /**
      * This method make the first init for the gui and the player needs to choose the mode game
      */
+	public MyGameGUI()
+    
 	{
 		try {
 
@@ -245,28 +245,28 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	}
 
-
-	@Override
-	public void paint (Graphics g)
-	{
-      /**
+ /**
      * This method draws the graph.
      * @param g - represent graph.
      */
+	@Override
+	public void paint (Graphics g)
+	{
+     
 		dbImage=createImage(1300,700 );
 		dbg = dbImage.getGraphics();
 		paintComponents(dbg);
 		g.drawImage(dbImage, 0, 0, this);
 	}
 
-
-	@Override
-	public void paintComponents(Graphics g)
-	{
 	/**
      * This method draws the whole game using the previous function and the fruits and robots using their coordinates.
      * @param g - represent graph.
      */
+	@Override
+	public void paintComponents(Graphics g)
+	{
+
 		try {
 			if(choose==1 || on==1) {
 				if(game.getFruits()!=null) {
@@ -415,14 +415,14 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		// TODO Auto-generated method stub
 		return;
 	}
-
-	@Override
-	public void mousePressed(MouseEvent e) {
-	/**
+/**
      * this method is when the mode is manualed.The player clicks on a particular robot to move it
      in the game in manual mode and the function takes the id of this particular robot.
      * @param e - represent MouseEvent.
      */
+	@Override
+	public void mousePressed(MouseEvent e) {
+	
 		
 		// TODO Auto-generated method stub
 		int x = e.getX();
@@ -438,15 +438,15 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			}	
 		}
 	}
-
-	@Override
-	public void mouseReleased(MouseEvent e) {
 	/**
      * this method is when the mode is manualed. When the player unleashes the mouse,
      it takes the x and y coordinates and moves the robot
      that we took its id in the previous function to his next node according to the coordinates.
      * @param e - represent MouseEvent.
      */
+	@Override
+	public void mouseReleased(MouseEvent e) {
+
 		
 		// TODO Auto-generated method stub
 		if(type==0) {
