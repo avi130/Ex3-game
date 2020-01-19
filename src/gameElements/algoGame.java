@@ -141,7 +141,7 @@ public class algoGame implements algo {
 
 	public void insertRobots(game_service game, graph gg, int NumOfRobots) {
 	/**
-     * this method is when the mode is automated and this function responsible to make the movement of the robots.
+     * this method is when the mode is automated and this function responsible to make the insert of the robots.
      * The function puts the robots close to the fruits, goes over all the fruits and checks what
      * is the fruit with the highest value and next to it puts in a robot.
      * @ param game - represent a game
