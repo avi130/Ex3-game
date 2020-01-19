@@ -24,9 +24,10 @@ public class robots implements robot_data{
 	int id;
 	int src;
 	int dest;
-	int speed;
+	double speed;
 	double value;
 	Point3D pos;
+	Point3D gui_location;
 
 
 	public robots(int id, int speed, int src, int dest, Point3D pos, double value) {
@@ -41,6 +42,42 @@ public class robots implements robot_data{
 
 	public robots() {}
 
+	
+	
+	
+	public robots(String jsonSTR) {
+        this();
+        try {
+            JSONObject robot = new JSONObject(jsonSTR);
+            robot = robot.getJSONObject("Robot");
+            double val = robot.getDouble("value");
+            int src = robot.getInt("src");
+            int id = robot.getInt("id");
+            int dst = robot.getInt("dest");
+            double speed = robot.getDouble("speed");
+            String pos = robot.getString("pos");
+            this.value = val;
+            this.pos = new Point3D(pos);
+            this.src = src;
+            this.dest = dst;
+            this.speed = speed;
+            this.id = id;
+            this.setGui_location(0, 0);
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	public LinkedList<Integer> robotsInfo(game_service game, graph p) {
 		LinkedList<Integer> a= new LinkedList<Integer>();
 		try {
@@ -80,11 +117,17 @@ public class robots implements robot_data{
 
 
 
-			for( String fruit: game.getRobots())
+			for( String robot: game.getRobots())
 			{
 
-
-				JSONObject ff = new JSONObject(fruit);
+				 robots robot_tmp = new robots(robot);
+		            if (MyGameGUI.km != null) {
+		            	MyGameGUI.km.addPlaceMark("dfr", robot_tmp.getLocation().toString());
+		            }
+				
+				
+				
+				JSONObject ff = new JSONObject(robot);
 
 				JSONObject ttt = ff.getJSONObject("Robot");
 				String pos = ttt.getString("pos");
@@ -94,7 +137,7 @@ public class robots implements robot_data{
 				double yyscale=Double.parseDouble(str[1]);
 
 				int xres =(int) (((xxscale - xmin) / (xmax-xmin)) * (1260 - 40) + 40);
-				int yres = (int)(((yyscale - ymin) / (ymax-ymin)) * (660 - 80) + 80);
+				int yres = 700- (int)(((yyscale - ymin) / (ymax-ymin)) * (660 - 80) + 80);
 				a.add(xres);
 				a.add(yres);
 				a.add(id);
@@ -153,45 +196,50 @@ public class robots implements robot_data{
 	}
 
 
-	public Point3D getPos(robots x) {
-		return x.pos;
+	public Point3D getPos() {
+		return this.pos;
 	}
 	public void setPos(Point3D pos) {
 		this.pos=pos;
 	}
 
-	public int getDest(robots x) {
-		return x.dest;
+	public int getDest() {
+		return this.dest;
 	}
 	public void setDest(int dest) {
 		this.dest=dest;
 	}
 
-	public int getSrc(robots x) {
-		return x.src;
+	public int getSrc() {
+		return this.src;
 	}
 	public void setSrc(int src) {
 		this.src=src;
 	}
 
-	public double getValue(robots x) {
-		return x.value;
+	public double getValue() {
+		return this.value;
 	}
 
 	public void setValue(double value) {
 		this.value=value;
 	}
 
-	public double getSpeed(robots x) {
-		return x.speed;
+	public double getSpeed() {
+		return this.speed;
 	}
 
-	public void setSpeed(int speed) {
+	public void setSpeed(double speed) {
 		this.speed=speed;
 	}
 
+	 public void setGui_location(double x, double y) {
+	        this.gui_location = new Point3D(x, y);
+	    }
 
-
+	 public Point3D getLocation() {
+	        return pos;
+	    }
 
 
 

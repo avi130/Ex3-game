@@ -101,9 +101,6 @@ public class algoGame implements algo {
 			
 		}
 			
-			
-
-
 			double x=ga.shortestPathDist(src, mysrc);
 			double y=ga.shortestPathDist(src, mydest);
 			if(x<=y) {
@@ -303,6 +300,7 @@ public class algoGame implements algo {
 
 						if(rid!=idr && srcr==src && destr==dest) {
 							folowr=true;
+							System.out.println("hereeeeeeeeee");
 						}
 							idr=rid;
 							srcr=src;
@@ -338,9 +336,6 @@ public class algoGame implements algo {
 					catch (JSONException e) {e.printStackTrace();}
 				}
 			}
-		
-	
-
 	}
 
 

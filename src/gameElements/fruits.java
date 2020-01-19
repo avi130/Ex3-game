@@ -27,6 +27,7 @@ public class fruits implements fruit_data  {
 	double value;
 	int type;
 	Point3D pos;
+	Point3D getLocation;
 
 	public fruits() {
 	}
@@ -93,38 +94,64 @@ public class fruits implements fruit_data  {
 
 		*/
 
-	public int getID(fruits x) {
-		return x.id;
+	public int getID() {
+		return this.id;
 	}
 
 	public void setID(int id) {
 		this.id = id;
 	}
 
-	public Point3D getPos(fruits x) {
-		return x.pos;
+	public Point3D getPos() {
+		return this.pos;
 	}
 
 	public void setPos(Point3D pos) {
 		this.pos = pos;
 	}
 
-	public int getType(fruits x) {
-		return x.type;
+	public int getType() {
+		return this.type;
 	}
 
 	public void setType(int type) {
 		this.type = type;
 	}
 
-	public double getValue(fruits x) {
-		return x.value;
+	public double getValue() {
+		return this.value;
 	}
 
 	public void setValue(double value) {
 		this.value = value;
 	}
 
+
+	
+	
+	
+	
+	public fruits(String jsonSTR) {
+        this();
+        try {
+            JSONObject fruit = new JSONObject(jsonSTR);
+            fruit = fruit.getJSONObject("Fruit");
+            double val = fruit.getDouble("value");
+            this.value = val;
+            String pos = fruit.getString("pos");
+            this.pos = new Point3D(pos);
+            int t = fruit.getInt("type");
+            this.type = t;
+        } catch (Exception e) {
+
+            e.printStackTrace();
+        }
+    }
+	
+	
+	
+	
+	
 	
 	
 	
@@ -169,6 +196,17 @@ public class fruits implements fruit_data  {
 
 			for (String fruit : game.getFruits()) {
 
+				
+				fruits fruit_tmp = new fruits(fruit);
+				 if (MyGameGUI.km != null) {
+			         if (fruit_tmp.getType() == 1) {
+			        	 MyGameGUI.km.addPlaceMark("fruit-apple", fruit_tmp.getPos().toString());
+			         } else {
+			        	 MyGameGUI.km.addPlaceMark("fruit-banana", fruit_tmp.getPos().toString());
+			         }
+			     }
+				
+				
 				JSONObject ff = new JSONObject(fruit);
 
 				JSONObject ttt = ff.getJSONObject("Fruit");
@@ -180,7 +218,7 @@ public class fruits implements fruit_data  {
 				double yyscale = Double.parseDouble(str[1]);
 
 				int xres =(int) (((xxscale - xmin) / (xmax-xmin)) * (1260 - 40) + 40);
-				int yres = (int)(((yyscale - ymin) / (ymax-ymin)) * (660 - 80) + 80);
+				int yres = 700-(int)(((yyscale - ymin) / (ymax-ymin)) * (660 - 80) + 80);
 				a.add(xres);
 				a.add(yres);
 				a.add(type);
@@ -196,4 +234,22 @@ public class fruits implements fruit_data  {
 		return a;
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

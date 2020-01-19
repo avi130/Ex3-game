@@ -66,6 +66,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	private int nextNode;
 	private int counter;
 	private int isFollow;
+	static Thread roboThread=new Thread();
+	public static kml km=null;
 
 	JButton Buttons;
 	JButton Start;
@@ -119,13 +121,16 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 						}
 					}
 					flag=false;
+					
 				}
 				this.game = Game_Server.getServer(inputfrom); // you have [0,23] games
-
+				km=new kml(inputfrom);
+				
 				String gr = game.getGraph(); //getGraph returns String of edges and nodes
 				DGraph gg = new DGraph();
 				gg.init(gr);
 				this.graph2=gg;
+				 
 				choose=1;
 				//	frut= new fruits(game, graph2);
 
@@ -178,7 +183,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			this.game.startGame();
 			on=1;
 			int ind=0;
-			long dt=20;
+			long dt=50;
 			if(type==1) {
 				while(this.game.isRunning()) {
 					myAlgo.moveRobots(this.game, this.graph2);
@@ -198,6 +203,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				}
 			}
 
+			km.kmlEnd();
 			counter=0;
 			String info = this.game.toString();			
 			JSONObject	line = new JSONObject(info);
@@ -208,7 +214,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			String results = game.toString();
 			System.out.println("Game Over: "+results);
 			System.exit(0);
-			
+
 		}catch(Exception ex) {}
 	}
 	private void initGUI() {}
@@ -228,7 +234,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		g.drawImage(dbImage, 0, 0, this);
 	}
 
-	
+
 	@Override
 	public void paintComponents(Graphics g)
 	{
@@ -396,7 +402,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			draw=false;
 		}
 	}
-	
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
@@ -461,7 +467,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	}
 
-*/
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

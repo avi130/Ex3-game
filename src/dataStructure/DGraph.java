@@ -99,12 +99,11 @@ public class DGraph implements graph,Serializable {
 				 xscale=Double.parseDouble(str[0]);
 				 
 				 int xp=(int)scale(xscale, xmin, xmax, 0+40, 1300-40);
-				 
 				 yscale=Double.parseDouble(str[1]);
 				 int yp=(int)scale(yscale, ymin, ymax, 0+80, 700-40);
 				 
 				 
-				 Point3D p = new Point3D(xp,yp);
+				 Point3D p = new Point3D(xp,700-yp);
 				 
 				x.addNode(new node(id, p));
 			}
