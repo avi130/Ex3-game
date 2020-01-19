@@ -37,21 +37,21 @@ public class Graph_Algo implements graph_algorithms, Serializable{
 
 	graph mygraph; 
 
-
-	public Graph_Algo ()
  /**
  * default constructor.
  */
+	public Graph_Algo ()
+
 	{
 		this.mygraph=new DGraph();
 	}
 
-
-	public Graph_Algo (graph g) {
  /**
  * This function gets a graph and initialize it to Algo_game attributes.
  * @param g - represent graph
  */
+	public Graph_Algo (graph g) {
+
 		// TODO Auto-generated method stub
 		mygraph=g;
 	}
