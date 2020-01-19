@@ -175,9 +175,12 @@ public class fruits implements fruit_data  {
 	public static LinkedList<Integer> FruitInfo(game_service game, graph p) {
 		
      /**
-     *  Constructor init fruit attributes from a JSON string input.
+     *  The function gets a game and a graph and returns a linked list containing all
+     * the information about the fruits.The function converts the coordinates of the x and y values 
+     * of the fruits from STDraw to jframe and adds to the list according to the values
+     * in the following order: first x, then y, type and value.
      * @ param game - represent game
-     * @ param g - represent graph
+     * @ param p - represent graph
      */
 		LinkedList<Integer> a= new LinkedList<Integer>();
 		try {
