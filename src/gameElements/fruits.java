@@ -31,14 +31,14 @@ public class fruits implements fruit_data  {
 
 	public fruits() {
 	}
-
-	public fruits(int type, double value, Point3D p) {
 	 /**
      *  copy constructor according to the given values for type,value and pos.
      * @ param type - apple/banana
      * @ param value 
      * @ param p - represent point
      */
+	public fruits(int type, double value, Point3D p) {
+
 		
 		this.type = type;
 		this.value = value;
@@ -46,14 +46,14 @@ public class fruits implements fruit_data  {
 
 	}
 
-
-	public void init(String jsonString) {
 	 /**
      *  Constructor init fruit attributes from a JSON string input. Separates the different values
      * from jsonString and sets them to their respective values. Pos The function separates the x and y values and
      * creates the 3D point for pos.
      * @ param jsonString
      */
+	public void init(String jsonString) {
+
 		try {
 			JSONObject fruit = new JSONObject(jsonString);
 			JSONObject ttt = fruit.getJSONObject("Fruit");
@@ -143,12 +143,12 @@ public class fruits implements fruit_data  {
 	
 	
 	
-	
-	public fruits(String jsonSTR) {
-	 /**
+		 /**
      *  Constructor init fruit attributes from a JSON string input.
      * @ param jsonSTR
      */
+	public fruits(String jsonSTR) {
+
         this();
         try {
             JSONObject fruit = new JSONObject(jsonSTR);
@@ -171,10 +171,7 @@ public class fruits implements fruit_data  {
 	
 	
 	
-	
-	public static LinkedList<Integer> FruitInfo(game_service game, graph p) {
-		
-     /**
+	   /**
      *  The function gets a game and a graph and returns a linked list containing all
      * the information about the fruits.The function converts the coordinates of the x and y values 
      * of the fruits from STDraw to jframe and adds to the list according to the values
@@ -182,6 +179,9 @@ public class fruits implements fruit_data  {
      * @ param game - represent game
      * @ param p - represent graph
      */
+	public static LinkedList<Integer> FruitInfo(game_service game, graph p) {
+		
+  
 		LinkedList<Integer> a= new LinkedList<Integer>();
 		try {
 			String g = game.getGraph();
