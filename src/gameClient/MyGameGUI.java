@@ -101,8 +101,10 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	public MyGameGUI(graph g) {
     
 	}
- /**
-     * This method make the first init for the gui and the player needs to choose the mode game
+     /**
+     * This method make the first init for the gui,this method performs all the properties of the game. 
+     * in this function selects the level in which the player wants to play, 
+     * which game mode he wants to play (auto / manual), the robots selection and more.
      */
 	public MyGameGUI()
     
@@ -245,7 +247,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	}
 
- /**
+     /**
      * This method draws the graph.
      * @param g - represent graph.
      */
@@ -259,7 +261,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		g.drawImage(dbImage, 0, 0, this);
 	}
 
-	/**
+     /**
      * This method draws the whole game using the previous function and the fruits and robots using their coordinates.
      * @param g - represent graph.
      */
@@ -415,9 +417,9 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		// TODO Auto-generated method stub
 		return;
 	}
-/**
+     /**
      * this method is when the mode is manualed.The player clicks on a particular robot to move it
-     in the game in manual mode and the function takes the id of this particular robot.
+     * in the game in manual mode and the function takes the id of this particular robot.
      * @param e - represent MouseEvent.
      */
 	@Override
@@ -438,10 +440,10 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			}	
 		}
 	}
-	/**
+     /**
      * this method is when the mode is manualed. When the player unleashes the mouse,
-     it takes the x and y coordinates and moves the robot
-     that we took its id in the previous function to his next node according to the coordinates.
+     * it takes the x and y coordinates and moves the robot
+     * that we took its id in the previous function to his next node according to the coordinates.
      * @param e - represent MouseEvent.
      */
 	@Override
@@ -468,7 +470,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	}
 
 
-	/** 
+	 /** 
 	 * Moves each of the robots along the edge, 
 	 * in case the robot is on a node the next destination (next edge) is chosen (randomly).
 	 * @param game
