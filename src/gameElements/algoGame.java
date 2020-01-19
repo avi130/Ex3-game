@@ -40,7 +40,13 @@ public class algoGame implements algo {
 
 
 	public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
-
+     /**
+     * goes over all the fruits one by one and by the distance knows which edge the fruit is located
+     * and the function will return the fruit that is on the closest edge.
+     * @ param game - represent a game
+     * @ param gg - represent graph
+     * @ param src - represent the starting node
+     */
 		LinkedList<Integer> fruitLocation= fruits.FruitInfo(game, gg);
 		List<edge_data> fruitLocationList= new LinkedList<edge_data>();
 		LinkedList<edge_data> fruitTypeList= new LinkedList<edge_data>();
@@ -134,6 +140,14 @@ public class algoGame implements algo {
 
 
 	public void insertRobots(game_service game, graph gg, int NumOfRobots) {
+	/**
+     * this method is when the mode is automated and this function responsible to make the movement of the robots.
+     * The function puts the robots close to the fruits, goes over all the fruits and checks what
+     * is the fruit with the highest value and next to it puts in a robot.
+     * @ param game - represent a game
+     * @ param gg - represent graph
+     * @ param NumOfRobots
+     */
 
 		LinkedList<Integer> fruitLocation=  fruits.FruitInfo(game, gg);
 		List<edge_data> fruitLocationList= new LinkedList<edge_data>();
@@ -225,6 +239,13 @@ public class algoGame implements algo {
 	
 
 	public int nextNode(game_service game,graph g, int src ) {
+     /**
+     * This method gets a game,graph and a starting point and helps direct a
+     * robot to his next destination with the use of fruitLocation method.
+     * @ param game - represent a game
+     * @ param g - represent graph
+     * @ param src - represent the starting node
+     */
 
 		int ans = -1;
 		Collection<edge_data> ee = g.getE(src);
@@ -257,6 +278,15 @@ public class algoGame implements algo {
 
 
 	public void moveRobotsManual(game_service game, graph gg,Point3D location,int currentRobot) {
+     /**
+     *  this method is when the mode is manualed. In manual mode, the player enters which robot he wants
+     * to move with and presses the fruit he wants the robot to collect.
+     * @ param game - represent a game
+     * @ param gg - represent graph
+     * @ param location - represent location on the graph
+     * @ param currentRobot
+     */
+
 
 		double x=location.x();
 		double y = location.y();
@@ -297,6 +327,12 @@ public class algoGame implements algo {
 
 
 	public void moveRobots(game_service game, graph gg) {
+		     /**
+     *   this method is when the mode is automated . The function relies on the nextNode function
+     * in order to move the robot to its next destination.
+     * @ param game - represent a game
+     * @ param gg - represent graph
+     */
 			folowr=false;
 			List<String> log = game.move();
 			if(log!=null) {
