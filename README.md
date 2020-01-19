@@ -14,7 +14,12 @@ and you decide which fruit you want to collect for each
 robot and so on untill the game is over.
 - Auto mode:  play the best case that can be.
 
-This assignment data structures and algorithms are based on previous project Ex2: https://github.com/avi130/OPP-Ex2
+This assignment data structures and algorithms are based on previous project Ex2: https://github.com/avi130/OPP-Ex2  
+  
+    
+ image examples from the game;
+
+
 
 ![](https://i.imgur.com/8dsMn1o.png)
 
