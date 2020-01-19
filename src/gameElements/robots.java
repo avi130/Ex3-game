@@ -31,6 +31,15 @@ public class robots implements robot_data{
 
 
 	public robots(int id, int speed, int src, int dest, Point3D pos, double value) {
+     /**
+     *  copy constructor according to the given values.
+     * @ param id 
+     * @ param speed - represent the speed of the robot
+     * @ param src - represent the starting node
+     * @ param dest - represent the destenation node
+     * @ param pos - represent the position
+     * @ param value 
+     */
 		this.id = id;
 		this.speed = speed;
 		this.src = src;
@@ -46,6 +55,12 @@ public class robots implements robot_data{
 	
 	
 	public robots(String jsonSTR) {
+	 /**
+     *  Constructor init robot attributes from a JSON string input. 
+     * @ param jsonSTR
+     */
+	
+		
 
         try {
             JSONObject robot = new JSONObject(jsonSTR);
@@ -73,6 +88,14 @@ public class robots implements robot_data{
 	
 
 	public LinkedList<Integer> robotsInfo(game_service game, graph p) {
+	/**
+     *  The function gets a game and a graph and returns a linked list containing all the information about the robots.
+     * The function converts the coordinates of the x and y values of the robots from STDraw
+     * to jframe and adds to the list according to the values in the following order: first x, then y, and id
+     * @ param game - represent game
+     * @ param p - represent graph
+     */
+		
 		LinkedList<Integer> a= new LinkedList<Integer>();
 		try {
 			String g = game.getGraph();
