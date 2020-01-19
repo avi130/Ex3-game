@@ -124,9 +124,7 @@ public class robots implements robot_data{
 		            if (MyGameGUI.km != null) {
 		            	MyGameGUI.km.addPlaceMark("dfr", robot_tmp.getLocation().toString());
 		            }
-				
-				
-				
+		            
 				JSONObject ff = new JSONObject(robot);
 
 				JSONObject ttt = ff.getJSONObject("Robot");

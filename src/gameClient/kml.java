@@ -23,19 +23,19 @@ public class kml {
     public  kml(){}
     /**
      * Constructor, initialize the object and concat the standard start of a KML file.
-     * @param stage
+     * @param level
      */
-    public kml(int stage) {
-        this.stage = stage;
+    public kml(int level) {
+        this.stage = level;
         info = new StringBuilder();
-        kmlStart();
+        kmlStartFile();
     }
 
     /**
      * Concat the opening string for the KML file.
      * Sets the elements of the game such as: node, fruit and robot that will be added as a placemark to the KML file.
      */
-    public void kmlStart()
+    public void kmlStartFile()
     {
     	
         info.append(
@@ -98,11 +98,10 @@ public class kml {
                         "      </Point>\r\n" +
                         "    </Placemark>\r\n"
         );
-
-
-
     }
 
+    
+    
     /**
      * Concat the closing string for the KML file.
      * Creates a kml file name=stage.kml and save it to the data folder in this project.
@@ -112,6 +111,9 @@ public class kml {
         info.append("  \r\n</Document>\r\n" +
                 "</kml>"
         );
+        kmlSave();
+    }
+    public void kmlSave() {
         try
         {
             File f=new File("data/"+this.stage+".kml");

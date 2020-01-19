@@ -68,6 +68,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	private int isFollow;
 	static Thread roboThread=new Thread();
 	public static kml km=null;
+	private int inputfrom;
+
 
 	JButton Buttons;
 	JButton Start;
@@ -107,7 +109,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				type=JOptionPane.showOptionDialog(null, "choose your type of game", "Click a button", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, a, null);	
 				String input = JOptionPane.showInputDialog(null,"Enter level");	
 				int i=0;
-				int inputfrom=-1;
+				inputfrom=-1;
 				boolean flag=true;
 				while(flag) {
 					while(i<1) {
@@ -121,16 +123,16 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 						}
 					}
 					flag=false;
-					
+
 				}
 				this.game = Game_Server.getServer(inputfrom); // you have [0,23] games
 				km=new kml(inputfrom);
-				
+
 				String gr = game.getGraph(); //getGraph returns String of edges and nodes
 				DGraph gg = new DGraph();
 				gg.init(gr);
 				this.graph2=gg;
-				 
+
 				choose=1;
 				//	frut= new fruits(game, graph2);
 
@@ -181,39 +183,46 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			if(JOptionPane.showConfirmDialog(null, "press YES to start the game", "ready?", JOptionPane.YES_OPTION) != JOptionPane.YES_OPTION)
 				System.exit(0);
 			this.game.startGame();
-			on=1;
-			int ind=0;
-			long dt=50;
-			if(type==1) {
-				while(this.game.isRunning()) {
-					myAlgo.moveRobots(this.game, this.graph2);
+			try {
+				on=1;
+				int ind=0;
+				long dt=50;
+				if(type==1) {
+					while(this.game.isRunning()) {
+						myAlgo.moveRobots(this.game, this.graph2);
 
-					if(ind%2==0) {repaint();}
-					TimeUnit.MILLISECONDS.sleep(dt);
-					ind++;
+						if(ind%2==0) {repaint();}
+						TimeUnit.MILLISECONDS.sleep(dt);
+						ind++;
+					}
 				}
-			}
-			if(type==0) {
-				repaint();
-				while(this.game.isRunning()) {
+				if(type==0) {
+					repaint();
+					while(this.game.isRunning()) {
 
-					if(ind%2==0) {repaint(); game.move();}
-					TimeUnit.MILLISECONDS.sleep(dt);
-					ind++;
+						if(ind%2==0) {repaint(); game.move();}
+						TimeUnit.MILLISECONDS.sleep(dt);
+						ind++;
+					}
+
+
 				}
-			}
 
-			km.kmlEnd();
-			counter=0;
-			String info = this.game.toString();			
-			JSONObject	line = new JSONObject(info);
+				km.kmlEnd();
+				counter=0;
+				String info = this.game.toString();			
+				JSONObject	line = new JSONObject(info);
 
-			JSONObject	ttt = line.getJSONObject("GameServer");
-			int rs = ttt.getInt("grade");
-			JOptionPane.showMessageDialog(null, "Game Over: your grade is "+ rs);
-			String results = game.toString();
-			System.out.println("Game Over: "+results);
-			System.exit(0);
+				JSONObject	ttt = line.getJSONObject("GameServer");
+				int rs = ttt.getInt("grade");
+				JOptionPane.showMessageDialog(null, "Game Over: your grade is "+ rs);
+				String results = game.toString();
+				System.out.println("Game Over: "+results);
+				System.exit(0);
+
+			}catch(Exception ex) {}
+
+
 
 		}catch(Exception ex) {}
 	}
@@ -222,6 +231,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	@Override
 	public void run() {
+
 	}
 
 
@@ -270,8 +280,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 						int type = ttt.getInt("type");
 
 						g.setColor(Color.blue);
-						g.drawString("value  "+value, a.get(i)+10 ,a.get(i+1)+15);
-						g.drawString("type  "+type, a.get(i)+10 ,a.get(i+1)+30);
+						g.drawString("value  "+value, a.get(i)+30 ,a.get(i+1)+15);
+						g.drawString("type  "+type, a.get(i)+30 ,a.get(i+1)+30);
 						i=i+4;
 					}
 				}
@@ -286,7 +296,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				long time= game.timeToEnd();
 				Graphics2D g2=(Graphics2D) g;
 				g2.setStroke(new BasicStroke(2));
-				g2.drawString("Left  00:"+time/1000+"   score is: "+grade, 100 ,100);
+				g2.drawString("level: "+inputfrom+"  Time Left  00:"+time/1000+"   score is: "+grade, 300 ,630);
+
 				BufferedImage robot_image;
 				robot_image = ImageIO.read(new File("data/robot.png"));
 
@@ -304,10 +315,26 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 					JSONObject ttt = ff.getJSONObject("Robot");
 					int src = ttt.getInt("src");
 					int dest = ttt.getInt("dest");
+					double value=ttt.getInt("value");
+					int id= ttt.getInt("id");
+					g.setColor(Color.black);
+					if(id==0) {
+						g2.drawString("Robot id is: "+id+ "  src  "+src+"  dest  "+dest+"     value:"+value, 300 ,650);
 
-					g.setColor(Color.blue);
-					g.drawString("src  "+src, a.get(i)+10 ,a.get(i+1)+15);
-					g.drawString("dest  "+dest, a.get(i)+10 ,a.get(i+1)+30);
+					}
+					if(id==1) {
+						g2.drawString("Robot id is: "+id+ "  src  "+src+"   dest  "+dest+"     value:"+value, 300 ,660);
+
+					}
+					if(id==2) {
+						g2.drawString("Robot id is: "+id+ "   src  "+src+"  dest  "+dest+"     value:"+value, 300 ,670);
+
+					}
+
+
+					g.setColor(Color.black);
+					g.drawString("src  "+src, a.get(i)+30 ,a.get(i+1)+15);
+					g.drawString("dest  "+dest, a.get(i)+30 ,a.get(i+1)+30);
 					i=i+3;
 				}
 			}

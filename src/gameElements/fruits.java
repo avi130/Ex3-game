@@ -206,6 +206,7 @@ public class fruits implements fruit_data  {
 			         }
 			     }
 				
+
 				
 				JSONObject ff = new JSONObject(fruit);
 
@@ -217,8 +218,8 @@ public class fruits implements fruit_data  {
 				double xxscale = Double.parseDouble(str[0]);
 				double yyscale = Double.parseDouble(str[1]);
 
-				int xres =(int) (((xxscale - xmin) / (xmax-xmin)) * (1260 - 40) + 40);
-				int yres = 700-(int)(((yyscale - ymin) / (ymax-ymin)) * (660 - 80) + 80);
+				int xres = (int) (((xxscale - xmin) / (xmax-xmin)) * (1260 - 40) + 40);
+				int yres = 720- (int)(((yyscale - ymin) / (ymax-ymin)) * (660 - 80) + 80);
 				a.add(xres);
 				a.add(yres);
 				a.add(type);

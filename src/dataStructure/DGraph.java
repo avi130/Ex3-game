@@ -103,7 +103,7 @@ public class DGraph implements graph,Serializable {
 				 int yp=(int)scale(yscale, ymin, ymax, 0+80, 700-40);
 				 
 				 
-				 Point3D p = new Point3D(xp,700-yp);
+				 Point3D p = new Point3D(xp,720-yp);
 				 
 				x.addNode(new node(id, p));
 			}

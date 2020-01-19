@@ -62,7 +62,8 @@ public class algoGame implements algo {
 					double dist1=Math.sqrt((gg.getNode(x).getLocation().y() - yy) * (gg.getNode(x).getLocation().y() - yy) + (gg.getNode(x).getLocation().x() - xx) * (gg.getNode(x).getLocation().x() - xx));
 					double dist2=Math.sqrt((gg.getNode(node.getKey()).getLocation().y() - yy) * (gg.getNode(node.getKey()).getLocation().y() - yy) + (gg.getNode(node.getKey()).getLocation().x() - xx) * (gg.getNode(node.getKey()).getLocation().x() - xx));
 					double cal=dist1+dist2-distPoints;
-					if(Math.abs(cal)<Math.abs(0.1)) {
+					
+					if(Math.abs(cal)<Math.abs(0.2)) {
 						fruitLocationList.add(edge);
 						System.out.println("in in in in ");
 						System.out.println("nextNode is"+edge.getDest());
@@ -141,7 +142,8 @@ public class algoGame implements algo {
 		int minValue=Integer.MIN_VALUE;
 		int mytype=-1;
 		edge_data big=null;
-
+		
+		
 		Collection<node_data> nodeList = gg.getV();
 		for(node_data node: nodeList) {
 			Collection<edge_data> edgeList2 = gg.getE(node.getKey());
@@ -161,8 +163,10 @@ public class algoGame implements algo {
 					double cal=dist1+dist2;
 					double cal2=distPoints;
 
-					if(Math.abs(cal-cal2)<Math.abs(0.1) && value>=minValue ) {
+					if(Math.abs(cal-cal2)<Math.abs(0.2) && value>=minValue ) {
 
+						
+						
 						big=edge;
 						minValue=value;
 						mytype=type;
@@ -186,7 +190,14 @@ public class algoGame implements algo {
 					}
 				}
 			}
+		
 		}
+		
+	if(	fruitLocationList.size()==0) {
+		System.out.println("blattttt");
+	}
+		
+		
 		if(fruitLocationList.size()< NumOfRobots) {
 			
 			edge_data extra=fruitLocationList.get(0);
@@ -207,10 +218,11 @@ public class algoGame implements algo {
 				game.addRobot(min);
 			}
 
+			
 		}
 	}
 
-
+	
 
 	public int nextNode(game_service game,graph g, int src ) {
 
