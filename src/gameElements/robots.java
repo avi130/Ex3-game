@@ -38,6 +38,7 @@ public class robots implements robot_data{
      * @ param pos - represent the position
      * @ param value 
      */
+	
 	public robots(int id, int speed, int src, int dest, Point3D pos, double value) {
  
 		this.id = id;
@@ -93,6 +94,7 @@ public class robots implements robot_data{
      * @ param game - represent game
      * @ param p - represent graph
      */
+	@Override
 	public LinkedList<Integer> robotsInfo(game_service game, graph p) {
 
 		
@@ -201,53 +203,56 @@ public class robots implements robot_data{
 
 	}
 
-	
+	@Override
 	public int getID() {
 		return this.id;
 	}
-
+	
 	public void getID(int id) {
 		this.id=id;
 	}
 
-
+	
 	public Point3D getPos() {
 		return this.pos;
 	}
+
 	public void setPos(Point3D pos) {
 		this.pos=pos;
 	}
-
+	@Override
 	public int getDest() {
 		return dest;
 	}
+	@Override
 	public void setDest(int dest) {
 		this.dest=dest;
 	}
-
+	@Override
 	public int getSrc() {
 		return this.src;
 	}
+	@Override
 	public void setSrc(int src) {
 		this.src=src;
 	}
-
+	@Override
 	public double getValue() {
 		return this.value;
 	}
-
+	
 	public void setValue(double value) {
 		this.value=value;
 	}
-
+	@Override
 	public double getSpeed() {
 		return this.speed;
 	}
-
+	@Override
 	public void setSpeed(double speed) {
 		this.speed=speed;
 	}
-
+	
 	 public void setGui_location(double x, double y) {
 	        this.gui_location = new Point3D(x, y);
 	    }

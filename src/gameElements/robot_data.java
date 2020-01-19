@@ -16,13 +16,18 @@ import org.json.JSONException;
 public interface robot_data {
 	
 	
+	
+	  /**
+     *  The function gets a game and a graph and returns a linked list containing all the information about the robots.
+     * The function converts the coordinates of the x and y values of the robots from STDraw
+     * to jframe and adds to the list according to the values in the following order: first x, then y, and id
+     * @ param game - represent game
+     * @ param p - represent graph
+     */
 	public LinkedList<Integer> robotsInfo(game_service game, graph p);
 	
 	
 	public void locate(double xmin, double ymin, double ymax, double xmax, LinkedList<Integer> a, game_service game);
-
-
-	
 
 
 	public double getValue();

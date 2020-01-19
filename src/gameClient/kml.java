@@ -24,54 +24,63 @@ public class kml {
     /**
      * Default constructor
      */
+    
     public  kml(){}
     /**
      * this method initialize the object and concat the standard start of a KML file.
      * @param level - represent the stage
      */
     public kml(int level) {
-        this.stage = level;
+        this.level = level;
         info = new StringBuilder();
-        kmlStartFile();
+        KML_node();
     }
 
     /**
-     * this method Concat the opening string for the KML file.
-     * Sets the elements of the game such as: node, fruit and robot that will be added as a placemark to the KML file.
+     * this function initialize the node icon to KML
      */
-    public void kmlStartFile()
-    {
-    	
-        info.append(
-                "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n" +
-                        "<kml xmlns=\"http://earth.google.com/kml/2.2\">\r\n" +
-                        "  <Document>\r\n" +
-                        "    <name>" + "Game stage :"+this.stage + "</name>" +"\r\n"+
-                        " <Style id=\"node\">\r\n" +
+    private void KML_node(){
+    	info.append(" <Style id=\"node\">\r\n" +
+                "      <IconStyle>\r\n" +
+                "        <Icon>\r\n" +
+                "          <href>http://maps.google.com/mapfiles/kml/pal3/icon35.png</href>\r\n" +
+                "        </Icon>\r\n" +
+                "        <hotSpot x=\"32\" y=\"1\" xunits=\"pixels\" yunits=\"pixels\"/>\r\n" +
+                "      </IconStyle>\r\n" +
+                "    </Style>"
+        );
+        KML_Fruit();
+    }
+    /**
+     * this function initialize the Fruits icon to KML (Type 1 and -1)
+     */
+    private void KML_Fruit(){
+    	info.append(
+                " <Style id=\"fruit_-1\">\r\n" +
                         "      <IconStyle>\r\n" +
                         "        <Icon>\r\n" +
-                        "          <href>http://maps.google.com/mapfiles/kml/pal3/icon35.png</href>\r\n" +
+                        "          <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>\r\n" +
                         "        </Icon>\r\n" +
                         "        <hotSpot x=\"32\" y=\"1\" xunits=\"pixels\" yunits=\"pixels\"/>\r\n" +
                         "      </IconStyle>\r\n" +
                         "    </Style>" +
-                        " <Style id=\"fruit-banana\">\r\n" +
+                        " <Style id=\"fruit_1\">\r\n" +
                         "      <IconStyle>\r\n" +
                         "        <Icon>\r\n" +
-                        "          <href>http://maps.google.com/mapfiles/kml/shapes/euro.png</href>\r\n" +
+                        "          <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>\r\n" +
                         "        </Icon>\r\n" +
                         "        <hotSpot x=\"32\" y=\"1\" xunits=\"pixels\" yunits=\"pixels\"/>\r\n" +
                         "      </IconStyle>\r\n" +
-                        "    </Style>" +
-                        " <Style id=\"fruit-apple\">\r\n" +
-                        "      <IconStyle>\r\n" +
-                        "        <Icon>\r\n" +
-                        "          <href>http://maps.google.com/mapfiles/kml/shapes/dollar.png</href>\r\n" +
-                        "        </Icon>\r\n" +
-                        "        <hotSpot x=\"32\" y=\"1\" xunits=\"pixels\" yunits=\"pixels\"/>\r\n" +
-                        "      </IconStyle>\r\n" +
-                        "    </Style>" +
-                        " <Style id=\"robot\">\r\n" +
+                        "    </Style>"
+        );
+        KML_Robot();
+    }
+    /**
+     * this function initialize the Robots icon to KML
+     */
+    private void KML_Robot(){
+    	info.append(
+                " <Style id=\"robot\">\r\n" +
                         "      <IconStyle>\r\n" +
                         "        <Icon>\r\n" +
                         "          <href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png></href>\r\n" +
@@ -120,7 +129,7 @@ public class kml {
     public void kmlSave() {
         try
         {
-            File f=new File("data/"+this.stage+".kml");
+            File f=new File("data/"+this.level+".kml");
             PrintWriter pw=new PrintWriter(f);
             pw.write(info.toString());
             pw.close();

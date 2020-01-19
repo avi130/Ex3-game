@@ -52,6 +52,7 @@ public class fruits implements fruit_data  {
      * creates the 3D point for pos.
      * @ param jsonString
      */
+	@Override
 	public void init(String jsonString) {
 
 		try {
@@ -75,62 +76,32 @@ public class fruits implements fruit_data  {
 		}
 	}
 
-	/*
-	public void locate(double xmin, double ymin, double ymax, double xmax, LinkedList<Integer> a, game_service game) {
-		for (String fruit : game.getFruits()) {
 
-			JSONObject ff;
-			try {
-				ff = new JSONObject(fruit);
-
-				JSONObject ttt = ff.getJSONObject("fruit");
-				String pos = ttt.getString("pos");
-				int value = ttt.getInt("value");
-				int type = ttt.getInt("type");
-
-				String[] str = pos.split(",");
-				double xxscale = Double.parseDouble(str[0]);
-				double yyscale = Double.parseDouble(str[1]);
-
-				int xres = (int) (((xxscale - xmin) / (xmax - xmin)) * (1260 - 40) + 40);
-				int yres = (int) (((yyscale - ymin) / (ymax - ymin)) * (660 - 80) + 80);
-				a.add(xres);
-				a.add(yres);
-				a.add(type);
-				a.add(value);
-			} catch (JSONException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}
-
-		*/
-
+	
 	public int getID() {
 		return this.id;
 	}
-
+	
 	public void setID(int id) {
 		this.id = id;
 	}
-
+	@Override
 	public Point3D getPos() {
 		return this.pos;
 	}
-
+	
 	public void setPos(Point3D pos) {
 		this.pos = pos;
 	}
-
+	@Override
 	public int getType() {
 		return this.type;
 	}
-
+	
 	public void setType(int type) {
 		this.type = type;
 	}
-
+	@Override
 	public double getValue() {
 		return this.value;
 	}

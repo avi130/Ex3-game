@@ -18,7 +18,12 @@ public interface fruit_data {
 
 	
 	
-	
+	   /**
+     *  Constructor init fruit attributes from a JSON string input. Separates the different values
+     * from jsonString and sets them to their respective values. Pos The function separates the x and y values and
+     * creates the 3D point for pos.
+     * @ param jsonString
+     */
 	public void init(String jsonString);
 	
 	

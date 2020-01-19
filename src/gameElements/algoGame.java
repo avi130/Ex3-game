@@ -45,6 +45,7 @@ public class algoGame implements algo {
      * @ param gg - represent graph
      * @ param src - represent the starting node
      */
+	@Override
 	public  List<node_data> fruitLocation(game_service game, graph gg,int src) {
    
 		LinkedList<Integer> fruitLocation= fruits.FruitInfo(game, gg);
@@ -145,7 +146,7 @@ public class algoGame implements algo {
      * @ param gg - represent graph
      * @ param NumOfRobots
      */
-
+	@Override
 	public void insertRobots(game_service game, graph gg, int NumOfRobots) {
 
 
@@ -244,6 +245,7 @@ public class algoGame implements algo {
      * @ param g - represent graph
      * @ param src - represent the starting node
      */
+	@Override
 	public int nextNode(game_service game,graph g, int src ) {
    
 
@@ -284,6 +286,7 @@ public class algoGame implements algo {
      * @ param location - represent location on the graph
      * @ param currentRobot
      */
+	@Override
 	public void moveRobotsManual(game_service game, graph gg,Point3D location,int currentRobot) {
    
 
@@ -331,7 +334,7 @@ public class algoGame implements algo {
      * @ param game - represent a game
      * @ param gg - represent graph
      */
-		
+	@Override
 	public void moveRobots(game_service game, graph gg) {
 	folowr=false;
 			List<String> log = game.move();

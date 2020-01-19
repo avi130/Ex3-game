@@ -94,7 +94,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	robots myRobot = new robots();
 	algoGame myAlgo = new algoGame();
 
- /**
+	 /**
      * Initialize new MyGameGUI() 
      * @param g - represnt graph
      */
@@ -199,7 +199,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			try {
 				on=1;
 				int ind=0;
-				long dt=50;
+				long dt=30;
 				if(type==1) {
 					while(this.game.isRunning()) {
 						myAlgo.moveRobots(this.game, this.graph2);
@@ -469,66 +469,6 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		// TODO Auto-generated method stub
 	}
 
-
-	 /** 
-	 * Moves each of the robots along the edge, 
-	 * in case the robot is on a node the next destination (next edge) is chosen (randomly).
-	 * @param game
-	 * @param gg
-	 * @param log
-	 */
-	/*
-	public void moveRobots(game_service game, graph gg) {
-
-		if(type==1) {
-			List<String> log = game.move();
-			if(log!=null) {
-
-				for(int i=0;i<log.size();i++) {
-					String robot_json = log.get(i);
-					try {
-						JSONObject line = new JSONObject(robot_json);
-						JSONObject ttt = line.getJSONObject("Robot");
-						int rid = ttt.getInt("id");
-						int src = ttt.getInt("src");
-						int dest = ttt.getInt("dest");
-
-						if(dest==-1) {	
-	//						List<node_data> fruitLocation= myAlgo.fruitLocation(game,gg,src,myFrut.FruitInfo(game, gg));
-							dest = myAlgo.nextNode(game,gg, src);
-							if(prevtNode==dest) {
-								counter++;
-								if(counter==3) {
-									System.out.println("wrong");
-									Collection<edge_data> edges= gg.getE(src);
-									for(edge_data newNext : edges) {
-										if(newNext.getDest()!=dest) {
-											dest=newNext.getDest();
-											counter=0;
-											break;
-										}
-									}
-								}
-							}
-
-							prevtNode=src;
-							nextNode=dest;
-
-							game.chooseNextEdge(rid, dest);
-
-						}
-					} 
-					catch (JSONException e) {e.printStackTrace();}
-				}
-			}
-		}
-		if(type==1) {
-			this.addMouseListener(this);
-		}
-
-	}
-
-	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
