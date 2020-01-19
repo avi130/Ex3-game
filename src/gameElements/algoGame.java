@@ -38,7 +38,7 @@ public class algoGame implements algo {
 	private int destr;
 	private boolean folowr;
 
-  /**
+     /**
      * goes over all the fruits one by one and by the distance knows which edge the fruit is located
      * and the function will return the fruit that is on the closest edge.
      * @ param game - represent a game
@@ -137,7 +137,7 @@ public class algoGame implements algo {
 		return ans;
 	}
 
-	/**
+     /**
      * this method is when the mode is automated and this function responsible to make the insert of the robots.
      * The function puts the robots close to the fruits, goes over all the fruits and checks what
      * is the fruit with the highest value and next to it puts in a robot.
@@ -237,7 +237,7 @@ public class algoGame implements algo {
 	}
 
 	
-  /**
+     /**
      * This method gets a game,graph and a starting point and helps direct a
      * robot to his next destination with the use of fruitLocation method.
      * @ param game - represent a game
@@ -276,7 +276,7 @@ public class algoGame implements algo {
 
 
 
-  /**
+     /**
      *  this method is when the mode is manualed. In manual mode, the player enters which robot he wants
      * to move with and presses the fruit he wants the robot to collect.
      * @ param game - represent a game
@@ -325,7 +325,7 @@ public class algoGame implements algo {
 
 	}
 
-		     /**
+     /**
      *   this method is when the mode is automated . The function relies on the nextNode function
      * in order to move the robot to its next destination.
      * @ param game - represent a game
