@@ -29,7 +29,7 @@ public class robots implements robot_data{
 	Point3D pos;
 	Point3D gui_location;
 
-    /**
+     /**
      *  copy constructor according to the given values.
      * @ param id 
      * @ param speed - represent the speed of the robot
@@ -53,7 +53,7 @@ public class robots implements robot_data{
 
 	
 	
-		 /**
+     /**
      *  Constructor init robot attributes from a JSON string input. 
      * @ param jsonSTR
      */
@@ -86,7 +86,7 @@ public class robots implements robot_data{
 	
 	
 	
-	/**
+     /**
      *  The function gets a game and a graph and returns a linked list containing all the information about the robots.
      * The function converts the coordinates of the x and y values of the robots from STDraw
      * to jframe and adds to the list according to the values in the following order: first x, then y, and id
