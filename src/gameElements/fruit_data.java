@@ -26,6 +26,18 @@ public interface fruit_data {
 	public static LinkedList<Integer> FruitInfo(game_service game, graph p) {
 		return null;
 	}
+
+
+
+	public int getType();
+
+
+
+	public double getValue();
+
+
+
+	public Point3D getPos();
 	
 	
 	

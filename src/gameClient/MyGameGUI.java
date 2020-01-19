@@ -55,6 +55,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 
+	
 	private int choose=0;
 	private int type=-1;
 	private int on=0;

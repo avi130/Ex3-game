@@ -46,7 +46,7 @@ public class robots implements robot_data{
 	
 	
 	public robots(String jsonSTR) {
-        this();
+
         try {
             JSONObject robot = new JSONObject(jsonSTR);
             robot = robot.getJSONObject("Robot");
@@ -71,13 +71,7 @@ public class robots implements robot_data{
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+
 	public LinkedList<Integer> robotsInfo(game_service game, graph p) {
 		LinkedList<Integer> a= new LinkedList<Integer>();
 		try {
@@ -185,11 +179,11 @@ public class robots implements robot_data{
 	}
 
 	
-	public int getID(robots x) {
-		return x.id;
+	public int getID() {
+		return this.id;
 	}
 
-	public void setID(int id) {
+	public void getID(int id) {
 		this.id=id;
 	}
 
@@ -202,7 +196,7 @@ public class robots implements robot_data{
 	}
 
 	public int getDest() {
-		return this.dest;
+		return dest;
 	}
 	public void setDest(int dest) {
 		this.dest=dest;

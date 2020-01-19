@@ -194,6 +194,7 @@ public class fruits implements fruit_data  {
 				}
 			}
 
+			
 			for (String fruit : game.getFruits()) {
 
 				
@@ -238,9 +239,7 @@ public class fruits implements fruit_data  {
 	
 	
 	
-	
-	
-	
+
 	
 	
 	
