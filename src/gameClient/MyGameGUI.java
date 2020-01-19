@@ -51,6 +51,10 @@ import gameClient.*;
 import gameElements.algoGame;
 import gameElements.fruits;
 import gameElements.robots;
+/**
+ * This class create gui for the game
+ * extends JFrame
+ */
 public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,Runnable{
 
 
@@ -92,10 +96,16 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 	public MyGameGUI(graph g) {
-
+     /**
+     * Initialize new MyGameGUI() 
+     * @param g - represnt graph
+     */
 	}
 
 	public MyGameGUI()
+     /**
+     * This method make the first init for the gui and the player needs to choose the mode game
+     */
 	{
 		try {
 
@@ -239,6 +249,10 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	@Override
 	public void paint (Graphics g)
 	{
+      /**
+     * This method draws the graph.
+     * @param g - represent graph.
+     */
 		dbImage=createImage(1300,700 );
 		dbg = dbImage.getGraphics();
 		paintComponents(dbg);
@@ -249,6 +263,10 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	@Override
 	public void paintComponents(Graphics g)
 	{
+	/**
+     * This method draws the whole game using the previous function and the fruits and robots using their coordinates.
+     * @param g - represent graph.
+     */
 		try {
 			if(choose==1 || on==1) {
 				if(game.getFruits()!=null) {
@@ -400,6 +418,12 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	@Override
 	public void mousePressed(MouseEvent e) {
+	/**
+     * this method is when the mode is manualed.The player clicks on a particular robot to move it
+     in the game in manual mode and the function takes the id of this particular robot.
+     * @param e - represent MouseEvent.
+     */
+		
 		// TODO Auto-generated method stub
 		int x = e.getX();
 		int y = e.getY();
@@ -417,6 +441,13 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
+	/**
+     * this method is when the mode is manualed. When the player unleashes the mouse,
+     it takes the x and y coordinates and moves the robot
+     that we took its id in the previous function to his next node according to the coordinates.
+     * @param e - represent MouseEvent.
+     */
+		
 		// TODO Auto-generated method stub
 		if(type==0) {
 			draw=true;
