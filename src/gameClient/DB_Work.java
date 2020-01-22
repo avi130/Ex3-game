@@ -5,9 +5,9 @@ import java.util.LinkedList;
 
 import static gameClient.SimpleDB.*;
 
-class DB_Reader {
+class DB_Work {
     private static LinkedList<Integer> levellst;
-    DB_Reader(){
+    DB_Work(){
         levellst=new LinkedList<>();
         levellst.add(0);
         levellst.add(1);
@@ -93,6 +93,42 @@ class DB_Reader {
         }
         return str.toString();
     }
+    
+    
+    
+    private static boolean underMaxMoves(int moves,int level){
+        switch(level) {
+            case 0 :
+            	 return moves <= 290;
+            case 16:
+            	 return moves <= 290;
+            case 20:
+                return moves <= 290;
+            case 1:
+            	return moves<= 580;
+            case 3:
+            	return moves<= 580;
+            case 9:
+            	return moves<= 580;
+            case 11:
+            	return moves<= 580;
+            case 13:
+            	return moves<= 580;
+            case 19:
+                return moves<= 580;
+           
+            case 5:
+                return moves<= 500;
+           
+            case 23:
+                return moves<= 1140;
+            default: return false;
+        }
+    }
+    
+    
+
+    
     static String ToughStages(int id){
         StringBuilder str=new StringBuilder();
         str.append("Placements for 'Tough Levels' are:").append("\n");
@@ -129,27 +165,11 @@ class DB_Reader {
         }
         return str.toString();
     }
-    private static boolean underMaxMoves(int moves,int level){
-        switch(level) {
-            case 0 :
-            case 16:
-            case 20:
-                return moves <= 290;
-            case 1:
-            case 3:
-            case 9:
-            case 11:
-            case 13:
-            case 19:
-                return moves<= 580;
-            case 5:
-                return moves<= 500;
-            case 23:
-                return moves<= 1140;
-            default: return false;
-        }
-    }
+    
     static boolean ToughLevels(int level){
         return levellst.contains(level);
     }
+    
+ 
+    
 }

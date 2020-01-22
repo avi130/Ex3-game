@@ -269,10 +269,10 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 
-				JOptionPane.showMessageDialog(null, "Loading HighScore and Placement for: "+ID+"...");
-				DB_Reader db=new DB_Reader();
+				JOptionPane.showMessageDialog(null, "Loading HighScore and Placement plesae wait ");
+				DB_Work db=new DB_Work();
 				JOptionPane.showMessageDialog(null,db.printLog(ID));
-				if(DB_Reader.ToughLevels(inputfrom)){
+				if(DB_Work.ToughLevels(inputfrom)){
 					JOptionPane.showMessageDialog(null,db.ToughStages(ID));
 				}
 				//*********
