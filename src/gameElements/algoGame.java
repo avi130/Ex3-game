@@ -93,7 +93,7 @@ public class algoGame implements algo  {
 							if(rid==0 && edge.getDest()>=0 && edge.getDest()<=14 )
 								fruitLocationList.add(edge);
 
-							else if (rid==1 && edge.getDest()>=15 && edge.getDest()<=38 )
+							else if (rid==1 && edge.getDest()>=16 && edge.getDest()<=38 )
 								fruitLocationList.add(edge);
 
 							else if (rid==2 && edge.getDest()>=38 && edge.getDest()<=50 )	
@@ -508,19 +508,23 @@ public class algoGame implements algo  {
 
 					if(cur!=null ) {
 						if(src==cur.getKey() || dest==cur.getKey() && fruitIsOn(game, gg, src)==true ) {
-							if(level==0  || level==9 || level==16 || level==19   ) {dt=70;}
-							else if( level==11 || level==20) {dt=50;}
-							else if (level==23) {dt=54;}
+							if(level==0  ||  level==16 || level==19   ) {dt=70;}
+							else if( level==11 ) {dt=50;}
+							else if (level==23 || level==20) {dt=54;}
+							else if (level==9) {dt=64;}
+							else if(level==13 ){dt=80;}
+							else if(level==20 ){dt=59;}
 							else
 								dt=105;
 
 						}
 						else {
-							if(level==9 ) {dt=230;}
-							else if (level==11  ) {dt=140;}
+							if(level==9 ) {dt=220;}
+							else if (level==11 ) {dt=130;}
 							else if (level==23 ) {dt=51;} 
-							else if (level==16 || level==20 ) {dt=120;} 
-							else if (level==19) {dt=200;} 
+							else if (level==16 || level==20 || level==13  ) {dt=120;} 
+							else if (level==19 ) {dt=200;} 
+							
 							else
 								dt=300;
 						}
@@ -531,7 +535,7 @@ public class algoGame implements algo  {
 					if(dest==-1) {	
 
 						dest = nextNode(game,gg, src);
-						if(level==13 || level==23) {
+						if(level==23 || level==23) {
 							if(prevtNode==dest) {
 								counter++;
 								if(counter==3) {
@@ -560,7 +564,7 @@ public class algoGame implements algo  {
 						else if(level==20) {
 							if(rid==0 && dest>=0 && dest<=14 )
 								game.chooseNextEdge(rid, dest);
-							else if (rid==1 && dest>=15 && dest<=38 )
+							else if (rid==1 && dest>=16 && dest<=38 )
 								game.chooseNextEdge(rid, dest);
 							else if (rid==2 && dest>=38 && dest<=50 )	
 								game.chooseNextEdge(rid, dest);

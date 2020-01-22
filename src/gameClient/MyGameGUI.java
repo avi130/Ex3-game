@@ -72,10 +72,12 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	private int counter;
 	private int isFollow;
 	static Thread roboThread=new Thread();
-	public static kml km=null;
+	public static kml km;
 	private int inputfrom;
 	private int count;
 	public static int dt;
+	private int ID;
+
 
 	JButton Buttons;
 	JButton Start;
@@ -119,6 +121,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			this.setTitle("The Robots Game");
 
 			if(choose==0) {
+				ID=Integer.parseInt(JOptionPane.showInputDialog(null,"Enter your ID"));
+
 				String a[]= {"manual","outomatic"};
 				type=JOptionPane.showOptionDialog(null, "choose your type of game", "Click a button", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, a, null);	
 				String input = JOptionPane.showInputDialog(null,"Enter level");	
@@ -140,13 +144,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 				}
 
-				//***********
-				int scenario_num = -1; // current "stage is 9, can play[0,9], can NOT 10 or above
-				int id = 999;
-				Game_Server.login(id);
-
-
-				//**************
+				Game_Server.login(ID);
 
 				this.game = Game_Server.getServer(inputfrom); // you have [0,23] games
 				km=new kml(inputfrom);
@@ -208,29 +206,29 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			try {
 				on=1;
 				int ind=0;
-				 dt=160;
+				dt=160;
 				//level 0=110(287 moves), 1=110(574), 3=110( 574) 
 				int jj = 0;
 				if(type==1) {
 					while(this.game.isRunning()) {
-			/*			count++;
+						/*			count++;
 						 if(count%20==0) {
 							dt=125;
 						}
 						 else if(count%8==0) {
 							dt=95;
 						}
-		*/				
-						
+						 */				
+
 						myAlgo.moveRobots(this.game, this.graph2);
 						if(ind%2==0) {repaint();}
-					//	TimeUnit.MILLISECONDS.sleep(dt);
+						//	TimeUnit.MILLISECONDS.sleep(dt);
 						ind++;
 
 						try {
 							List<String> stat = game.getRobots();
 							for(int i=0;i<stat.size();i++) {
-							System.out.println(jj+") "+stat.get(i));
+								System.out.println(jj+") "+stat.get(i));
 							}
 							jj++;
 						}
@@ -250,10 +248,15 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 					}
 				}
 
-				km.kmlEnd();
+				km.KML_Stop();
+				if(type==1) {
+
+					game.sendKML(km.toString()); // Should be your KML (will not work on case -1).
+				}
 				counter=0;
 				String info = this.game.toString();			
 				JSONObject	line = new JSONObject(info);
+
 
 				JSONObject	ttt = line.getJSONObject("GameServer");
 				int rs = ttt.getInt("grade");
@@ -261,9 +264,16 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				String results = game.toString();
 				System.out.println("Game Over: "+results);
 				//*********
-				if(type==1) {
-				String remark = km.toString();
-			//	game.sendKML(remark); // Should be your KML (will not work on case -1).
+
+
+
+
+
+				JOptionPane.showMessageDialog(null, "Loading HighScore and Placement for: "+ID+"...");
+				DB_Reader db=new DB_Reader();
+				JOptionPane.showMessageDialog(null,db.printLog(ID));
+				if(DB_Reader.ToughLevels(inputfrom)){
+					JOptionPane.showMessageDialog(null,db.ToughStages(ID));
 				}
 				//*********
 				System.exit(0);
@@ -398,6 +408,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			if(graph2!=null ) {
 				for (node_data p : graph2.getV() ) 
 				{
+
+
 					g.setColor(Color.BLUE);
 					Point3D srcPoint = p.getLocation();
 					g.fillOval((int)srcPoint.x()-7, (int)srcPoint.y()-7, 12, 12);
@@ -406,6 +418,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 					if(graph2.getE(p.getKey())!=null) {
 
 						for(edge_data e: graph2.getE(p.getKey())) {
+
 
 							g.setColor(Color.magenta);
 							if(e.getInfo()=="do" ) {

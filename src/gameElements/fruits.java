@@ -197,6 +197,7 @@ public class fruits implements fruit_data  {
 				 if (MyGameGUI.km != null) {
 			         if (fruit_tmp.getType() == 1) {
 			        	 MyGameGUI.km.addPlaceMark("fruit-apple", fruit_tmp.getPos().toString());
+
 			         } else {
 			        	 MyGameGUI.km.addPlaceMark("fruit-banana", fruit_tmp.getPos().toString());
 			         }
