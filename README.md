@@ -19,7 +19,7 @@ This assignment data structures and algorithms are based on previous project Ex2
     
 ## image examples from the game:
 
-
+![](https://i.imgur.com/WcNIpgm.png)
 
 ![](https://i.imgur.com/8dsMn1o.png)
 
@@ -30,6 +30,10 @@ This assignment data structures and algorithms are based on previous project Ex2
 ![](https://i.imgur.com/6Ul5PNt.png)
 
 ![](https://i.imgur.com/ZJuNFky.png)
+
+![](https://i.imgur.com/UMrWJT8.png)
+
+![](https://i.imgur.com/fbKZVUE.png)
 
 
 
