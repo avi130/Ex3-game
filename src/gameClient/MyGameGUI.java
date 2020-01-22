@@ -59,7 +59,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 
 
-	
+
 	private int choose=0;
 	private int type=-1;
 	private int on=0;
@@ -74,7 +74,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	static Thread roboThread=new Thread();
 	public static kml km=null;
 	private int inputfrom;
-
+	private int count;
+	public static int dt;
 
 	JButton Buttons;
 	JButton Start;
@@ -94,20 +95,20 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	robots myRobot = new robots();
 	algoGame myAlgo = new algoGame();
 
-	 /**
-     * Initialize new MyGameGUI() 
-     * @param g - represnt graph
-     */
+	/**
+	 * Initialize new MyGameGUI() 
+	 * @param g - represnt graph
+	 */
 	public MyGameGUI(graph g) {
-    
+
 	}
-     /**
-     * This method make the first init for the gui,this method performs all the properties of the game. 
-     * in this function selects the level in which the player wants to play, 
-     * which game mode he wants to play (auto / manual), the robots selection and more.
-     */
+	/**
+	 * This method make the first init for the gui,this method performs all the properties of the game. 
+	 * in this function selects the level in which the player wants to play, 
+	 * which game mode he wants to play (auto / manual), the robots selection and more.
+	 */
 	public MyGameGUI()
-    
+
 	{
 		try {
 
@@ -138,9 +139,17 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 					flag=false;
 
 				}
+
+				//***********
+				int scenario_num = -1; // current "stage is 9, can play[0,9], can NOT 10 or above
+				int id = 999;
+				Game_Server.login(id);
+
+
+				//**************
+
 				this.game = Game_Server.getServer(inputfrom); // you have [0,23] games
 				km=new kml(inputfrom);
-
 				String gr = game.getGraph(); //getGraph returns String of edges and nodes
 				DGraph gg = new DGraph();
 				gg.init(gr);
@@ -199,14 +208,35 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			try {
 				on=1;
 				int ind=0;
-				long dt=30;
+				 dt=160;
+				//level 0=110(287 moves), 1=110(574), 3=110( 574) 
+				int jj = 0;
 				if(type==1) {
 					while(this.game.isRunning()) {
+			/*			count++;
+						 if(count%20==0) {
+							dt=125;
+						}
+						 else if(count%8==0) {
+							dt=95;
+						}
+		*/				
+						
 						myAlgo.moveRobots(this.game, this.graph2);
-
 						if(ind%2==0) {repaint();}
-						TimeUnit.MILLISECONDS.sleep(dt);
+					//	TimeUnit.MILLISECONDS.sleep(dt);
 						ind++;
+
+						try {
+							List<String> stat = game.getRobots();
+							for(int i=0;i<stat.size();i++) {
+							System.out.println(jj+") "+stat.get(i));
+							}
+							jj++;
+						}
+						catch(Exception e) {
+							e.printStackTrace();
+						}
 					}
 				}
 				if(type==0) {
@@ -216,9 +246,8 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 						if(ind%2==0) {repaint(); game.move();}
 						TimeUnit.MILLISECONDS.sleep(dt);
 						ind++;
+
 					}
-
-
 				}
 
 				km.kmlEnd();
@@ -231,6 +260,12 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				JOptionPane.showMessageDialog(null, "Game Over: your grade is "+ rs);
 				String results = game.toString();
 				System.out.println("Game Over: "+results);
+				//*********
+				if(type==1) {
+				String remark = km.toString();
+			//	game.sendKML(remark); // Should be your KML (will not work on case -1).
+				}
+				//*********
 				System.exit(0);
 
 			}catch(Exception ex) {}
@@ -247,24 +282,24 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 	}
 
-     /**
-     * This method draws the graph.
-     * @param g - represent graph.
-     */
+	/**
+	 * This method draws the graph.
+	 * @param g - represent graph.
+	 */
 	@Override
 	public void paint (Graphics g)
 	{
-     
+
 		dbImage=createImage(1300,700 );
 		dbg = dbImage.getGraphics();
 		paintComponents(dbg);
 		g.drawImage(dbImage, 0, 0, this);
 	}
 
-     /**
-     * This method draws the whole game using the previous function and the fruits and robots using their coordinates.
-     * @param g - represent graph.
-     */
+	/**
+	 * This method draws the whole game using the previous function and the fruits and robots using their coordinates.
+	 * @param g - represent graph.
+	 */
 	@Override
 	public void paintComponents(Graphics g)
 	{
@@ -417,15 +452,15 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 		// TODO Auto-generated method stub
 		return;
 	}
-     /**
-     * this method is when the mode is manualed.The player clicks on a particular robot to move it
-     * in the game in manual mode and the function takes the id of this particular robot.
-     * @param e - represent MouseEvent.
-     */
+	/**
+	 * this method is when the mode is manualed.The player clicks on a particular robot to move it
+	 * in the game in manual mode and the function takes the id of this particular robot.
+	 * @param e - represent MouseEvent.
+	 */
 	@Override
 	public void mousePressed(MouseEvent e) {
-	
-		
+
+
 		// TODO Auto-generated method stub
 		int x = e.getX();
 		int y = e.getY();
@@ -440,16 +475,16 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			}	
 		}
 	}
-     /**
-     * this method is when the mode is manualed. When the player unleashes the mouse,
-     * it takes the x and y coordinates and moves the robot
-     * that we took its id in the previous function to his next node according to the coordinates.
-     * @param e - represent MouseEvent.
-     */
+	/**
+	 * this method is when the mode is manualed. When the player unleashes the mouse,
+	 * it takes the x and y coordinates and moves the robot
+	 * that we took its id in the previous function to his next node according to the coordinates.
+	 * @param e - represent MouseEvent.
+	 */
 	@Override
 	public void mouseReleased(MouseEvent e) {
 
-		
+
 		// TODO Auto-generated method stub
 		if(type==0) {
 			draw=true;
