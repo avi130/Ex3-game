@@ -15,7 +15,15 @@ class RoboTest {
 
    static int ROBOT_SIZE=2;
    static ArrayList<robot_data> robots;
-
+   
+   //test help function to creat new robot
+   private static String createRobotFromString(String id,String value, String src, String dest, String speed, String pos)
+   {
+    String s="{\"Robot\":{\"id\":"+id+",\"value\":"+value+",\"src\":"+src+",\"dest\":"+dest+",\"speed\":"+speed+",\"pos\":\""+pos+"\"}}";
+   return  s;
+   }
+   
+   
     @BeforeAll
     static void init()
     {
@@ -93,9 +101,6 @@ class RoboTest {
      }
     }
 
-    private static String createRobotFromString(String id,String value, String src, String dest, String speed, String pos)
-    {
-     String s="{\"Robot\":{\"id\":"+id+",\"value\":"+value+",\"src\":"+src+",\"dest\":"+dest+",\"speed\":"+speed+",\"pos\":\""+pos+"\"}}";
-    return  s;
-    }
+    
+  
 }

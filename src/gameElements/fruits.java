@@ -46,36 +46,6 @@ public class fruits implements fruit_data  {
 
 	}
 
-     /**
-     *  Constructor init fruit attributes from a JSON string input. Separates the different values
-     * from jsonString and sets them to their respective values. Pos The function separates the x and y values and
-     * creates the 3D point for pos.
-     * @ param jsonString
-     */
-	@Override
-	public void init(String jsonString) {
-
-		try {
-			JSONObject fruit = new JSONObject(jsonString);
-			JSONObject ttt = fruit.getJSONObject("Fruit");
-			double value = ttt.getDouble("value");
-			int type = ttt.getInt("type");
-			String position = ttt.getString("pos");
-			String[] arrOfStr = position.split(",", 0);
-			double x = Double.parseDouble(arrOfStr[0]);
-			double y = Double.parseDouble(arrOfStr[1]);
-			Point3D pos = new Point3D(x, y);
-			this.value = value;
-			this.pos = pos;
-			this.type = type;
-
-		}
-
-		catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
 
 	
 	public int getID() {
@@ -235,7 +205,35 @@ public class fruits implements fruit_data  {
 	
 	
 	
+	 /**
+     *  Constructor init fruit attributes from a JSON string input. Separates the different values
+     * from jsonString and sets them to their respective values. Pos The function separates the x and y values and
+     * creates the 3D point for pos.
+     * @ param jsonString
+     */
+	@Override
+	public void init(String jsonString) {
 
+		try {
+			JSONObject fruit = new JSONObject(jsonString);
+			JSONObject ttt = fruit.getJSONObject("Fruit");
+			double value = ttt.getDouble("value");
+			int type = ttt.getInt("type");
+			String position = ttt.getString("pos");
+			String[] arrOfStr = position.split(",", 0);
+			double x = Double.parseDouble(arrOfStr[0]);
+			double y = Double.parseDouble(arrOfStr[1]);
+			Point3D pos = new Point3D(x, y);
+			this.value = value;
+			this.pos = pos;
+			this.type = type;
+
+		}
+
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 	
 	
 	
