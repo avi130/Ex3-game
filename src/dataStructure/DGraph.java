@@ -11,6 +11,7 @@ import java.util.Set;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import gameClient.MyGameGUI;
 import utils.Point3D;
 
 
@@ -70,6 +71,9 @@ public class DGraph implements graph,Serializable {
 			
 			 for (int i = 0; i < nodes.length(); ++i) {//find min x&y foe the scale func
 				 String pos = nodes.getJSONObject(i).getString("pos");
+				 
+				 MyGameGUI.km.addPlaceMark("node", pos);
+
 				 String[] str = pos.split(",");
 				 xscale=Double.parseDouble(str[0]);
 				 if(xscale<xmin) {

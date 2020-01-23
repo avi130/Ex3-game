@@ -32,7 +32,7 @@
       </IconStyle>
     </Style>    <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:04:58.820053300</when>
+        <when>2020-01-22T21:28:26.322644200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -41,7 +41,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:04:58.957313100</when>
+        <when>2020-01-22T21:28:26.458142800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -50,7 +50,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:04:58.981274500</when>
+        <when>2020-01-22T21:28:26.477093700</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
@@ -59,7 +59,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:04:59.009174200</when>
+        <when>2020-01-22T21:28:26.500030700</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
@@ -68,7 +68,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.053341900</when>
+        <when>2020-01-22T21:28:26.964199400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -77,7 +77,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.167035200</when>
+        <when>2020-01-22T21:28:27.078953700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -86,7 +86,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.174021200</when>
+        <when>2020-01-22T21:28:27.093875600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -95,7 +95,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.179003800</when>
+        <when>2020-01-22T21:28:27.097891</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
@@ -104,7 +104,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.238881500</when>
+        <when>2020-01-22T21:28:27.151728500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -113,7 +113,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.310682100</when>
+        <when>2020-01-22T21:28:27.222536500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -122,7 +122,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.347576200</when>
+        <when>2020-01-22T21:28:27.261426800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -131,16 +131,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.351590100</when>
+        <when>2020-01-22T21:28:27.265416100</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
-        <coordinates>35.19723649197049,32.101825657175844,0.0</coordinates>
+        <coordinates>35.19724144351114,32.10182675438367,0.0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.381662200</when>
+        <when>2020-01-22T21:28:27.293535600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -149,7 +149,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.454268</when>
+        <when>2020-01-22T21:28:27.364667400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -158,7 +158,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.500176500</when>
+        <when>2020-01-22T21:28:27.403543300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -167,7 +167,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.504167800</when>
+        <when>2020-01-22T21:28:27.407558200</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
@@ -176,7 +176,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.526273900</when>
+        <when>2020-01-22T21:28:27.434765300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -185,7 +185,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.597917800</when>
+        <when>2020-01-22T21:28:27.506256800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -194,7 +194,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.627835800</when>
+        <when>2020-01-22T21:28:27.541163600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -203,16 +203,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.630818600</when>
+        <when>2020-01-22T21:28:27.545153100</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
-        <coordinates>35.19865758413671,32.10214055582358,0.0</coordinates>
+        <coordinates>35.19864768105542,32.10213836140792,0.0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.669726</when>
+        <when>2020-01-22T21:28:27.577100100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -221,7 +221,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.740499800</when>
+        <when>2020-01-22T21:28:27.647904300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -230,7 +230,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.786900700</when>
+        <when>2020-01-22T21:28:27.680790100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -239,16 +239,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.790915900</when>
+        <when>2020-01-22T21:28:27.683782200</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
-        <coordinates>35.1993656544495,32.10229745654353,0.0</coordinates>
+        <coordinates>35.1993458482869,32.1022930677122,0.0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.810835200</when>
+        <when>2020-01-22T21:28:27.718878400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -257,7 +257,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.881646600</when>
+        <when>2020-01-22T21:28:27.790530100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -266,7 +266,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.914592500</when>
+        <when>2020-01-22T21:28:27.823410700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -275,16 +275,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.917576600</when>
+        <when>2020-01-22T21:28:27.827423800</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
-        <coordinates>35.20006382168099,32.102452162847825,0.0</coordinates>
+        <coordinates>35.20005391859969,32.10244996843216,0.0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:00.954460800</when>
+        <when>2020-01-22T21:28:27.861339500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -293,7 +293,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.025374400</when>
+        <when>2020-01-22T21:28:27.932143400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -302,7 +302,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.074200900</when>
+        <when>2020-01-22T21:28:27.969019200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -311,16 +311,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.078191500</when>
+        <when>2020-01-22T21:28:27.972011</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
-        <coordinates>35.20077684353443,32.102610160775605,0.0</coordinates>
+        <coordinates>35.20075703737183,32.102605771944276,0.0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.096293800</when>
+        <when>2020-01-22T21:28:28.002930700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -329,7 +329,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.168006900</when>
+        <when>2020-01-22T21:28:28.073775300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -338,7 +338,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.208894100</when>
+        <when>2020-01-22T21:28:28.102697800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -347,16 +347,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.211882500</when>
+        <when>2020-01-22T21:28:28.106651900</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
-        <coordinates>35.20148491384721,32.10276706149556,0.0</coordinates>
+        <coordinates>35.20145520460332,32.10276047824857,0.0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.239794400</when>
+        <when>2020-01-22T21:28:28.144736900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -365,7 +365,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.311256600</when>
+        <when>2020-01-22T21:28:28.215393700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -374,7 +374,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.369095400</when>
+        <when>2020-01-22T21:28:28.247274700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -383,16 +383,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.375076900</when>
+        <when>2020-01-22T21:28:28.250266800</when>
       </TimeStamp>
       <styleUrl>#robo</styleUrl>
       <Point>
-        <coordinates>35.20218803261935,32.10292286500768,0.0</coordinates>
+        <coordinates>35.20215832337546,32.10291628176069,0.0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.383058</when>
+        <when>2020-01-22T21:28:28.285484600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -401,7 +401,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.454570</when>
+        <when>2020-01-22T21:28:28.357018900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -410,7 +410,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:01.524860700</when>
+        <when>2020-01-22T21:28:28.389919600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -419,7 +419,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:03.400487300</when>
+        <when>2020-01-22T21:28:28.392911700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.202861442147594,32.10307208527281,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:28.427831200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -428,7 +437,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:04.603693</when>
+        <when>2020-01-22T21:28:28.532797100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -437,7 +446,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:06.409061500</when>
+        <when>2020-01-22T21:28:28.536786700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20338006225828,32.1031203156745,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:28.924090100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -446,7 +464,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:06.711045200</when>
+        <when>2020-01-22T21:28:28.927082700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20416075891895,32.10301058071711,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:29.527372600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -455,7 +482,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:06.781730500</when>
+        <when>2020-01-22T21:28:29.530364400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20571955856368,32.1027914753703,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:30.129155600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -464,7 +500,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:06.853259</when>
+        <when>2020-01-22T21:28:30.133147400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20728354556164,32.10257164088757,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:30.304692300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -473,7 +518,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:06.924399900</when>
+        <when>2020-01-22T21:28:30.729548100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -482,7 +527,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:06.995185900</when>
+        <when>2020-01-22T21:28:30.732540100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.207600622673525,32.1031861381749,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:31.327608600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -491,7 +545,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.065680700</when>
+        <when>2020-01-22T21:28:31.331623500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20787687367029,32.104465439734774,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:31.509356</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -500,7 +563,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.136492700</when>
+        <when>2020-01-22T21:28:31.962497400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -509,7 +572,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.207304300</when>
+        <when>2020-01-22T21:28:31.966479400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20755146349846,32.104986960786874,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:32.542841900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -518,7 +590,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.278113</when>
+        <when>2020-01-22T21:28:32.545830500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20679163689793,32.105545486304635,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:33.136622200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -527,7 +608,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.348923400</when>
+        <when>2020-01-22T21:28:33.139613600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20603559052925,32.106101233088474,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:33.315157700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -536,7 +626,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.419164100</when>
+        <when>2020-01-22T21:28:33.616266200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -545,7 +635,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.489973800</when>
+        <when>2020-01-22T21:28:33.687867</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -554,7 +644,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.560596</when>
+        <when>2020-01-22T21:28:33.737694600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -563,7 +653,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.631420300</when>
+        <when>2020-01-22T21:28:33.740720400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20477783296404,32.10619386041121,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:33.758833600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -572,7 +671,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.703207800</when>
+        <when>2020-01-22T21:28:33.829482500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -581,7 +680,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.775010</when>
+        <when>2020-01-22T21:28:33.860397600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -590,7 +689,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.845732200</when>
+        <when>2020-01-22T21:28:33.863359700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20437586926413,32.10617091793071,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:33.899574</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -599,7 +707,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.916474500</when>
+        <when>2020-01-22T21:28:33.971923700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -608,7 +716,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:07.989060700</when>
+        <when>2020-01-22T21:28:34.022802800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -617,7 +725,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.061313300</when>
+        <when>2020-01-22T21:28:34.025800100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.203973905564226,32.10614797545022,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.042757400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -626,7 +743,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.132918600</when>
+        <when>2020-01-22T21:28:34.114552</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -635,7 +752,250 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.203952700</when>
+        <when>2020-01-22T21:28:34.153425200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.156439800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20356911113404,32.10612487140296,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.185529100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.257138100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.293041600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.296033800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20316431670385,32.1061017673557,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.327149200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.397801500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.427718500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.431673100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.202768014464496,32.10607914800873,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.468759900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.540380200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.573292100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.576284200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20236322003431,32.10605604396147,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.610389400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.681040800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.710956900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.713948300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20196408706468,32.10603326304774,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.751120</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.821660800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.854541</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.857533200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.2016888087167,32.10601755126051,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.891736800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.963250500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.992173600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:34.995164900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.201292305734306,32.105950005236636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.034254700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.199963710098416,32.105723673136964,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.104907400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -644,7 +1004,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.276126500</when>
+        <when>2020-01-22T21:28:35.134825</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -653,7 +1013,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.347941200</when>
+        <when>2020-01-22T21:28:35.138812400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20089859502643,32.105882934888996,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.175681700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -662,7 +1031,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.419757600</when>
+        <when>2020-01-22T21:28:35.246069300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -671,7 +1040,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.491700500</when>
+        <when>2020-01-22T21:28:35.278020800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -680,7 +1049,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.563309600</when>
+        <when>2020-01-22T21:28:35.281042400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20050209204403,32.105815388865125,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.316110800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -689,7 +1067,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.633358700</when>
+        <when>2020-01-22T21:28:35.386728900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -698,7 +1076,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.704415900</when>
+        <when>2020-01-22T21:28:35.417646</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -707,7 +1085,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.775457700</when>
+        <when>2020-01-22T21:28:35.420637900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.200111173610686,32.10574879419371,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.457540200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -716,7 +1103,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.846723400</when>
+        <when>2020-01-22T21:28:35.528351100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -725,7 +1112,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.917221</when>
+        <when>2020-01-22T21:28:35.557273600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -734,7 +1121,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:08.989241700</when>
+        <when>2020-01-22T21:28:35.560265700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19971467062829,32.10568124816984,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.598359400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -743,7 +1139,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.060199300</when>
+        <when>2020-01-22T21:28:35.669013100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -752,7 +1148,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.131079500</when>
+        <when>2020-01-22T21:28:35.698574600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -761,7 +1157,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.203577200</when>
+        <when>2020-01-22T21:28:35.701566500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19932095992041,32.1056141778222,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.740596700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -770,7 +1175,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.275232400</when>
+        <when>2020-01-22T21:28:35.810639</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -779,7 +1184,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.346830</when>
+        <when>2020-01-22T21:28:35.842538900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -788,7 +1193,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.419645200</when>
+        <when>2020-01-22T21:28:35.845533200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19892724921254,32.10554710747455,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:35.880709800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -797,7 +1211,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.490652200</when>
+        <when>2020-01-22T21:28:35.951523400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -806,7 +1220,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.561337200</when>
+        <when>2020-01-22T21:28:35.980442</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -815,7 +1229,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.632296100</when>
+        <when>2020-01-22T21:28:35.983700600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19853353850466,32.10548003712691,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.021744600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -824,7 +1247,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.702844300</when>
+        <when>2020-01-22T21:28:36.093541700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -833,7 +1256,178 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.773871200</when>
+        <when>2020-01-22T21:28:36.122710900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.125704300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.198137035522265,32.10541249110304,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.163752</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.233885500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.264802700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.267794800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19774611708892,32.10534589643162,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.304703300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.375013200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.404933300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.407925200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.197528356739305,32.1053088,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.445016400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.515670400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.545557</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.548549</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19700329771767,32.10541075390549,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.585756300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.657292700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.685220300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.689207300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19647073785287,32.10551416429534,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.727383400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.195224052340706,32.10575624080796,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.797922200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -842,7 +1436,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.844727900</when>
+        <when>2020-01-22T21:28:36.826838800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -851,7 +1445,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.914731</when>
+        <when>2020-01-22T21:28:36.829796900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19594567883123,32.10561611820083,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:36.868006300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -860,7 +1463,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:09.984889400</when>
+        <when>2020-01-22T21:28:36.938506200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -869,7 +1472,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.055296700</when>
+        <when>2020-01-22T21:28:36.969423900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -878,7 +1481,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.125703100</when>
+        <when>2020-01-22T21:28:36.973445600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19541686938801,32.10571880034849,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.008632500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -887,7 +1499,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.196481100</when>
+        <when>2020-01-22T21:28:37.079130100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -896,7 +1508,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.266737400</when>
+        <when>2020-01-22T21:28:37.129995600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -905,7 +1517,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.338340</when>
+        <when>2020-01-22T21:28:37.132986100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.194888059944795,32.10582148249616,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.149942400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -914,7 +1535,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.411167600</when>
+        <when>2020-01-22T21:28:37.220750900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -923,7 +1544,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.481977300</when>
+        <when>2020-01-22T21:28:37.261641600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -932,7 +1553,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.553047500</when>
+        <when>2020-01-22T21:28:37.264633700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19435925050158,32.10592416464383,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.291774900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -941,7 +1571,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.624068300</when>
+        <when>2020-01-22T21:28:37.361905200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -950,7 +1580,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.695352700</when>
+        <when>2020-01-22T21:28:37.390835</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -959,7 +1589,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.766371600</when>
+        <when>2020-01-22T21:28:37.393827</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19383044105836,32.1060268467915,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.432261800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -968,7 +1607,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.838333100</when>
+        <when>2020-01-22T21:28:37.503072400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -977,7 +1616,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.909561200</when>
+        <when>2020-01-22T21:28:37.532019600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -986,7 +1625,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:10.980194</when>
+        <when>2020-01-22T21:28:37.535018700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19341035835351,32.10610841680672,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.573583100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -995,7 +1643,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.051085</when>
+        <when>2020-01-22T21:28:37.644388500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1004,7 +1652,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.121398500</when>
+        <when>2020-01-22T21:28:37.674308300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1013,7 +1661,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.192303600</when>
+        <when>2020-01-22T21:28:37.676303</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19309633505085,32.10625180236115,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.714400800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1022,7 +1679,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.263049400</when>
+        <when>2020-01-22T21:28:37.785048100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1031,7 +1688,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.334650600</when>
+        <when>2020-01-22T21:28:37.813967200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1040,7 +1697,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.406484100</when>
+        <when>2020-01-22T21:28:37.816959</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.192782311748196,32.106395187915574,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.855993400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1049,7 +1715,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.476544300</when>
+        <when>2020-01-22T21:28:37.926667600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1058,7 +1724,142 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.547523</when>
+        <when>2020-01-22T21:28:37.956553400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.959545600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19246828844554,32.106538573470004,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:37.996764700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.067680600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.096592900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.098589700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19215426514288,32.10668195902443,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.138623600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.209522400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.240434</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.243428900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.1918380147246,32.10682636149768,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.280614500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.351144</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.382050300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.384050200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19152176430632,32.106970763970935,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.421950400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19038634163924,32.10748920705224,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.493762300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1067,7 +1868,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.619330400</when>
+        <when>2020-01-22T21:28:38.522648800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1076,7 +1877,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.690853300</when>
+        <when>2020-01-22T21:28:38.525640500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19120551388804,32.10711516644419,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.564756400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1085,7 +1895,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.761400</when>
+        <when>2020-01-22T21:28:38.635376800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1094,7 +1904,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.831984200</when>
+        <when>2020-01-22T21:28:38.666264400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1103,7 +1913,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.903824700</when>
+        <when>2020-01-22T21:28:38.669261100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.190889263469764,32.10725956891744,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.707154700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1112,7 +1931,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:11.974725700</when>
+        <when>2020-01-22T21:28:38.777998300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1121,7 +1940,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:12.046613100</when>
+        <when>2020-01-22T21:28:38.806887200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1130,7 +1949,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:12.118376600</when>
+        <when>2020-01-22T21:28:38.809913400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.190573013051484,32.107403971390696,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.848807100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1139,7 +1967,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:12.189835300</when>
+        <when>2020-01-22T21:28:38.919588900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1148,7 +1976,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:12.260691200</when>
+        <when>2020-01-22T21:28:38.947543700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1157,7 +1985,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:12.333142100</when>
+        <when>2020-01-22T21:28:38.950534800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.190256762633204,32.10754837386395,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:38.989866400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1166,7 +2003,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.207014100</when>
+        <when>2020-01-22T21:28:39.060514600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1175,7 +2012,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.507211</when>
+        <when>2020-01-22T21:28:39.090434700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1184,7 +2021,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.578247800</when>
+        <when>2020-01-22T21:28:39.093426600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18994273933055,32.10769175941838,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:39.130523900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1193,7 +2039,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.650837800</when>
+        <when>2020-01-22T21:28:39.201138600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1202,7 +2048,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.722947300</when>
+        <when>2020-01-22T21:28:39.230095200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1211,7 +2057,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.793488400</when>
+        <when>2020-01-22T21:28:39.233085300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18962871602789,32.10783514497281,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:39.271139500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1220,7 +2075,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.864514100</when>
+        <when>2020-01-22T21:28:39.376668900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1229,7 +2084,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:14.936064700</when>
+        <when>2020-01-22T21:28:39.380658300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18974326091942,32.10778284285816,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:39.765755</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1238,7 +2102,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.006213</when>
+        <when>2020-01-22T21:28:39.767748900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.190392806597444,32.107486255100554,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:40.365563300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1247,7 +2120,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.076809300</when>
+        <when>2020-01-22T21:28:40.369521</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.191696228258,32.10689110233364,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:40.971423900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1256,7 +2138,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.146971900</when>
+        <when>2020-01-22T21:28:40.974415600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.192997484766295,32.106296938192585,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:41.146969600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1265,7 +2156,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.220805800</when>
+        <when>2020-01-22T21:28:41.449896</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1274,7 +2165,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.292578900</when>
+        <when>2020-01-22T21:28:41.520969200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1283,7 +2174,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.363388600</when>
+        <when>2020-01-22T21:28:41.572793300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1292,7 +2183,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.433402100</when>
+        <when>2020-01-22T21:28:41.576770700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19474996083811,32.105848298040115,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:41.592729100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1301,7 +2201,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.504326800</when>
+        <when>2020-01-22T21:28:41.663162300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1310,7 +2210,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.576677400</when>
+        <when>2020-01-22T21:28:41.706014500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1319,7 +2219,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.647102300</when>
+        <when>2020-01-22T21:28:41.709006200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19526491555665,32.10574830614865,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:41.734322400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1328,7 +2237,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.717294300</when>
+        <when>2020-01-22T21:28:41.804759700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1337,7 +2246,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.789413300</when>
+        <when>2020-01-22T21:28:41.848343400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1346,7 +2255,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.859675500</when>
+        <when>2020-01-22T21:28:41.851340700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.195772668111296,32.105649712745176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:41.875241100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1355,7 +2273,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:15.930562900</when>
+        <when>2020-01-22T21:28:41.946106200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1364,7 +2282,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.002124200</when>
+        <when>2020-01-22T21:28:41.982997600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1373,7 +2291,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.073403</when>
+        <when>2020-01-22T21:28:41.985944900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.196284021747886,32.10555042009771,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.017054400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1382,7 +2309,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.144217300</when>
+        <when>2020-01-22T21:28:42.087732200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1391,7 +2318,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.216064800</when>
+        <when>2020-01-22T21:28:42.130617200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1400,7 +2327,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.287010600</when>
+        <when>2020-01-22T21:28:42.137600800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19679177430253,32.105451826694235,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.157862500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1409,7 +2345,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.357227400</when>
+        <when>2020-01-22T21:28:42.228356300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1418,7 +2354,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.428288300</when>
+        <when>2020-01-22T21:28:42.292189200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1427,7 +2363,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.498876900</when>
+        <when>2020-01-22T21:28:42.296174700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19729952685718,32.105353233290764,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.299168200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1436,7 +2381,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.570656300</when>
+        <when>2020-01-22T21:28:42.370981600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1445,7 +2390,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.641473400</when>
+        <when>2020-01-22T21:28:42.429848500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1454,7 +2399,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.712276800</when>
+        <when>2020-01-22T21:28:42.432841300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.197731992717294,32.105343490282905,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.441843200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1463,7 +2417,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.783011800</when>
+        <when>2020-01-22T21:28:42.512595600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1472,7 +2426,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.853619600</when>
+        <when>2020-01-22T21:28:42.556485500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1481,7 +2435,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.924421700</when>
+        <when>2020-01-22T21:28:42.560499600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19814799192947,32.10541435757511,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.583601200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1490,7 +2453,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:16.995228700</when>
+        <when>2020-01-22T21:28:42.654253700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1499,7 +2462,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.065307200</when>
+        <when>2020-01-22T21:28:42.694112200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1508,7 +2471,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.137230700</when>
+        <when>2020-01-22T21:28:42.697136300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.198561082056244,32.105484729291845,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.725326700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1517,7 +2489,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.208257300</when>
+        <when>2020-01-22T21:28:42.795872100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1526,7 +2498,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.279100600</when>
+        <when>2020-01-22T21:28:42.845736200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1535,7 +2507,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.350267600</when>
+        <when>2020-01-22T21:28:42.848731300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.198971263097626,32.10555460543311,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.866803</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1544,7 +2525,367 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.421321100</when>
+        <when>2020-01-22T21:28:42.937460</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.987375100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:42.991346600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.1993843532244,32.10562497714985,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.008271200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.078691900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.123566400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.127562200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19979453426578,32.10569485329112,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.149471400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.220285200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.261170800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.264162800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.200207624392554,32.10576522500786,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.292126200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.362899100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.408776300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.411768400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20062071451933,32.105835596724596,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.433903200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.504800200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.555967600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.558940500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20103380464611,32.105905968441334,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.576088900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.646705200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.696571600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.699564700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.201446894772886,32.10597634015807,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.716828100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.787371200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.831211500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.835199800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.2016888087167,32.10601755126051,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.859328400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.929979700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.974826</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:43.976820600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.201292305734306,32.105950005236636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.000834</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.071601</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.113488300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.116479</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20089580275191,32.10588245921277,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.142379700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.213222600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.254085100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.259099100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20049929976951,32.1058149131889,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.284197900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.1992728373109,32.105605979924384,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.354852700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1553,7 +2894,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.493083</when>
+        <when>2020-01-22T21:28:44.399196100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1562,7 +2903,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.564749500</when>
+        <when>2020-01-22T21:28:44.403191300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.200105589061636,32.10574784284126,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.426437500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1571,7 +2921,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:17.636506</when>
+        <when>2020-01-22T21:28:44.497370300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1580,7 +2930,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:18.307452700</when>
+        <when>2020-01-22T21:28:44.535236200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1589,7 +2939,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:18.609003400</when>
+        <when>2020-01-22T21:28:44.538259700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19772377889273,32.105342091021825,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:44.568149600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1598,7 +2957,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:18.679714600</when>
+        <when>2020-01-22T21:28:44.681849100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1607,7 +2966,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:18.751379400</when>
+        <when>2020-01-22T21:28:44.684840700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.1969957968745,32.10541221038985,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.066928800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1616,7 +2984,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:18.822908100</when>
+        <when>2020-01-22T21:28:45.069920900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19473804308147,32.105850612183445,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.240467800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1625,7 +3002,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:18.893129600</when>
+        <when>2020-01-22T21:28:45.541708400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1634,7 +3011,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:18.963583200</when>
+        <when>2020-01-22T21:28:45.613466900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1643,7 +3020,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.034176700</when>
+        <when>2020-01-22T21:28:45.668320900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1652,7 +3029,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.105239</when>
+        <when>2020-01-22T21:28:45.671312</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19175338433098,32.10686500441306,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.683486300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1661,7 +3047,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.176796300</when>
+        <when>2020-01-22T21:28:45.754090800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1670,7 +3056,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.249146500</when>
+        <when>2020-01-22T21:28:45.795978600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1679,7 +3065,124 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.320229400</when>
+        <when>2020-01-22T21:28:45.798970600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.191125337725666,32.10715177552192,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.824906100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.896744900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.948572900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.952565100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.190492836889106,32.10744058046843,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:45.966849900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.037380400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.079253100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.082213300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18986479028379,32.10772735157728,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.108342700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.178989</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.216891500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18893516072167,32.10655929420479,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.220948100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18943689275569,32.107551251348674,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.249012100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1688,7 +3191,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.391148700</when>
+        <when>2020-01-22T21:28:46.319632300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1697,7 +3200,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.462109500</when>
+        <when>2020-01-22T21:28:46.360520300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1706,7 +3209,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.532715100</when>
+        <when>2020-01-22T21:28:46.363512300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.1891294274441,32.106943372258556,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.391439800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1715,7 +3227,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.604734800</when>
+        <when>2020-01-22T21:28:46.462249100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1724,7 +3236,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.676525100</when>
+        <when>2020-01-22T21:28:46.500180200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1733,7 +3245,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.748468100</when>
+        <when>2020-01-22T21:28:46.504168900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18881760092242,32.10632687077,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.533329400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1742,7 +3263,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.818981800</when>
+        <when>2020-01-22T21:28:46.604130100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1751,7 +3272,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.889023300</when>
+        <when>2020-01-22T21:28:46.647536900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1760,7 +3281,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:19.959936100</when>
+        <when>2020-01-22T21:28:46.650526300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18850795500579,32.10571468048066,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.674653100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1769,7 +3299,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:20.030745100</when>
+        <when>2020-01-22T21:28:46.744754700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1778,7 +3308,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:20.101585900</when>
+        <when>2020-01-22T21:28:46.788663400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1787,7 +3317,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:20.172366900</when>
+        <when>2020-01-22T21:28:46.790630600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18820267029925,32.10511111258976,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.815735600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1796,7 +3335,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:21.145191400</when>
+        <when>2020-01-22T21:28:46.886343400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1805,7 +3344,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:21.745775</when>
+        <when>2020-01-22T21:28:46.929259300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1814,7 +3353,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.046966400</when>
+        <when>2020-01-22T21:28:46.932219500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18789302438261,32.10449892230042,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:46.956470300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1823,7 +3371,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.117774300</when>
+        <when>2020-01-22T21:28:47.026966</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1832,7 +3380,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.188863600</when>
+        <when>2020-01-22T21:28:47.065900100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1841,7 +3389,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.259623700</when>
+        <when>2020-01-22T21:28:47.069917100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.187587739676076,32.103895354409524,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:47.097105500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1850,7 +3407,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.331513900</when>
+        <when>2020-01-22T21:28:47.207517300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1859,7 +3416,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.403013500</when>
+        <when>2020-01-22T21:28:47.210510</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.187680950123266,32.103766596923634,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:47.604424900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1868,7 +3434,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.473825100</when>
+        <when>2020-01-22T21:28:47.608410900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.188325582439866,32.1036994744955,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:48.068192600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1877,7 +3452,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.543942</when>
+        <when>2020-01-22T21:28:48.196836800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1886,7 +3461,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.615649600</when>
+        <when>2020-01-22T21:28:48.198831400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18910131880549,32.103618700840336,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:48.669474300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1895,7 +3479,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.686571</when>
+        <when>2020-01-22T21:28:48.797126800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1904,7 +3488,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.757705200</when>
+        <when>2020-01-22T21:28:48.800118700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19597880064568,32.10154696638656,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:48.972793100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1913,7 +3506,160 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.828771800</when>
+        <when>2020-01-22T21:28:49.044587700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.115913200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.173759100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.176750700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20038567182316,32.10252348135689,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.186874700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.258531700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.300419700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.304412700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.201801812448736,32.1028372827968,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.328538500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.399156800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.448063800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.452016</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20319591121872,32.1031462,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.469971700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.541774800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.611588500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.612585900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.20539663533063,32.10283686555705,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.614579500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20430081745608,32.10299089404702,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.683395600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1922,7 +3668,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.899344</when>
+        <when>2020-01-22T21:28:49.755213800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1931,7 +3677,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:22.969423</when>
+        <when>2020-01-22T21:28:49.758195900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1940,7 +3686,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:23.040455500</when>
+        <when>2020-01-22T21:28:49.762185800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20503742161432,32.10288735674503,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.826017500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1949,7 +3704,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:23.111364600</when>
+        <when>2020-01-22T21:28:49.897822800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1958,7 +3713,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:23.181726800</when>
+        <when>2020-01-22T21:28:49.915774900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1967,7 +3722,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:23.253658500</when>
+        <when>2020-01-22T21:28:49.922363100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.205779213125794,32.10278309030711,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:49.968158800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1976,7 +3740,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:23.324456700</when>
+        <when>2020-01-22T21:28:50.039539400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1985,7 +3749,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:23.394476600</when>
+        <when>2020-01-22T21:28:50.079456500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -1994,7 +3758,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:24.066749300</when>
+        <when>2020-01-22T21:28:50.082416400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.206515817284036,32.10267955300513,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:50.110341800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2003,7 +3776,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:24.970392100</when>
+        <when>2020-01-22T21:28:50.181184600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2012,7 +3785,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.272381300</when>
+        <when>2020-01-22T21:28:50.232050300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2021,7 +3794,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.343200800</when>
+        <when>2020-01-22T21:28:50.237061300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20725242144228,32.10257601570314,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:50.251968200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2030,7 +3812,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.414198900</when>
+        <when>2020-01-22T21:28:50.392589400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2039,7 +3821,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.485076300</when>
+        <when>2020-01-22T21:28:50.395611</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20752857714779,32.10285249972822,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:50.546178200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2048,7 +3839,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.556475300</when>
+        <when>2020-01-22T21:28:50.550197400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20752857714779,32.10285249972822,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:50.924165200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2057,7 +3857,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.628033400</when>
+        <when>2020-01-22T21:28:51.045839500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2066,7 +3866,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.698870800</when>
+        <when>2020-01-22T21:28:51.047833600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20792948668281,32.10470908739496,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:51.649575700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2075,7 +3884,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.769078900</when>
+        <when>2020-01-22T21:28:51.654569600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20641739394543,32.105820580962636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:51.825396400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2084,7 +3902,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.840039400</when>
+        <when>2020-01-22T21:28:52.125647300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2093,7 +3911,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.911641100</when>
+        <when>2020-01-22T21:28:52.196519</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2102,7 +3920,151 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:25.983435700</when>
+        <when>2020-01-22T21:28:52.244641600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.247635600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.203727632029775,32.10613391914175,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.267047</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.337828900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.393177900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.396169900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20292936609052,32.106088357314285,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.408154300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.478980400</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.527850</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.530810700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20213110015126,32.10604279548682,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.548988900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.619585300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.692378600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.705345600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.709332700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.201286721185255,32.10594905388419,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.763191600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19974476565152,32.105686374989176,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.834000700</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2111,7 +4073,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:26.053665300</when>
+        <when>2020-01-22T21:28:52.855942400</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2120,7 +4082,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:26.124467600</when>
+        <when>2020-01-22T21:28:52.858934400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.20049371522046,32.10581396183645,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:52.904826700</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2129,7 +4100,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:26.496683200</when>
+        <when>2020-01-22T21:28:52.975156300</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2138,7 +4109,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:26.797662200</when>
+        <when>2020-01-22T21:28:52.987127800</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2147,7 +4118,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:26.869471500</when>
+        <when>2020-01-22T21:28:52.990119800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.197528356739305,32.1053088,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:53.098915800</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2156,7 +4136,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:26.941474900</when>
+        <when>2020-01-22T21:28:53.103904800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19621570918522,32.105563684763716,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:53.346499</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2165,7 +4154,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.012356300</when>
+        <when>2020-01-22T21:28:53.446821400</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2174,7 +4163,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.084129500</when>
+        <when>2020-01-22T21:28:53.449813400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19341035835351,32.10610841680672,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:53.646697700</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2183,7 +4181,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.155899400</when>
+        <when>2020-01-22T21:28:53.718260900</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2192,7 +4190,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.227510300</when>
+        <when>2020-01-22T21:28:53.790063800</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2201,7 +4199,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.298322100</when>
+        <when>2020-01-22T21:28:53.837935700</when>
       </TimeStamp>
       <styleUrl>#fruit-apple</styleUrl>
       <Point>
@@ -2210,7 +4208,124 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.369366200</when>
+        <when>2020-01-22T21:28:53.840927600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18920247771317,32.10708779743245,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:53.860066100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:53.930730</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:53.965511300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:53.968498600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18843926594681,32.105578877705206,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.002381900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.073696800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.106608700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.109600800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.187659699642616,32.10403762398381,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.143717700</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.213827</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.244744200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-apple</styleUrl>
+      <Point>
+        <coordinates>35.188500771222955,32.10570047767076,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.246738800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.188045121594286,32.10479962846517,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.288663600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2219,7 +4334,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.447919300</when>
+        <when>2020-01-22T21:28:54.359206100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2228,7 +4343,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.518733100</when>
+        <when>2020-01-22T21:28:54.407110500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2237,7 +4352,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.588841200</when>
+        <when>2020-01-22T21:28:54.411129100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18911840029458,32.1069215708606,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.430018300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2246,7 +4370,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.659649300</when>
+        <when>2020-01-22T21:28:54.500830100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2255,7 +4379,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.730454200</when>
+        <when>2020-01-22T21:28:54.534737700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2264,7 +4388,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.800978200</when>
+        <when>2020-01-22T21:28:54.537763500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19034733839998,32.10750701624359,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.571483700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2273,7 +4406,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.871889500</when>
+        <when>2020-01-22T21:28:54.642183600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2282,7 +4415,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:27.942855200</when>
+        <when>2020-01-22T21:28:54.673087300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2291,7 +4424,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.013737300</when>
+        <when>2020-01-22T21:28:54.676078900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19188459650462,32.106805091883935,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.712243400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2300,7 +4442,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.084531700</when>
+        <when>2020-01-22T21:28:54.782791800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2309,7 +4451,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.155463700</when>
+        <when>2020-01-22T21:28:54.814706700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2318,7 +4460,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.227054900</when>
+        <when>2020-01-22T21:28:54.817698600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19340020308667,32.10611305378288,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.853605300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2327,7 +4478,79 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.297834500</when>
+        <when>2020-01-22T21:28:54.924413</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19565793847981,32.10567199049591,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.954333100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19565793847981,32.10567199049591,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.957325100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.194688742444995,32.10586018518805,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:54.995250200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19565793847981,32.10567199049591,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.067032</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19565793847981,32.10567199049591,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.103965800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19565793847981,32.10567199049591,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.105962900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.1972635160377,32.10536022573073,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.137727200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19565793847981,32.10567199049591,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.207892900</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2336,7 +4559,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.368985500</when>
+        <when>2020-01-22T21:28:55.239807600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2345,7 +4568,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.439830400</when>
+        <when>2020-01-22T21:28:55.241802400</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19621570918522,32.105563684763716,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.277894600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2354,7 +4586,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.510241900</when>
+        <when>2020-01-22T21:28:55.348516800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2363,7 +4595,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.580338700</when>
+        <when>2020-01-22T21:28:55.380431400</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2372,7 +4604,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.650961600</when>
+        <when>2020-01-22T21:28:55.383423600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19357166196912,32.10607709550206,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.419333800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2381,7 +4622,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.721731700</when>
+        <when>2020-01-22T21:28:55.491135300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2390,7 +4631,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.791797100</when>
+        <when>2020-01-22T21:28:55.529034</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2399,7 +4640,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.862657900</when>
+        <when>2020-01-22T21:28:55.532025900</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19261973230781,32.10646942298985,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.561949200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2408,7 +4658,70 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:28.934460200</when>
+        <when>2020-01-22T21:28:55.633755</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.188827745913414,32.10634692808267,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.681625800</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.188827745913414,32.10634692808267,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.685615700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.19103848021642,32.10719143535612,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.704572600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.188827745913414,32.10634692808267,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.774691900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.188827745913414,32.10634692808267,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.806612200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.188827745913414,32.10634692808267,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.809598100</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18958953510896,32.10785303529412,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.844855500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2417,7 +4730,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.006027300</when>
+        <when>2020-01-22T21:28:55.915625500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2426,7 +4739,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.076579800</when>
+        <when>2020-01-22T21:28:55.944548</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2435,7 +4748,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.146649700</when>
+        <when>2020-01-22T21:28:55.948538600</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18882087182999,32.10633333756883,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:55.985779500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2444,7 +4766,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.219182</when>
+        <when>2020-01-22T21:28:56.057454200</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2453,7 +4775,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.290186900</when>
+        <when>2020-01-22T21:28:56.087373500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2462,7 +4784,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.361046</when>
+        <when>2020-01-22T21:28:56.090355300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18804675703841,32.10480286184548,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.128417300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2471,7 +4802,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.432591500</when>
+        <when>2020-01-22T21:28:56.199038700</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2480,7 +4811,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.503686</when>
+        <when>2020-01-22T21:28:56.228958600</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2489,7 +4820,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.574433500</when>
+        <when>2020-01-22T21:28:56.231950700</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18753053591606,32.10378225882353,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.270012300</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2498,7 +4838,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.645019300</when>
+        <when>2020-01-22T21:28:56.340660</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2507,7 +4847,70 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.715371</when>
+        <when>2020-01-22T21:28:56.372574600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18867176864414,32.103663427809636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.375566500</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18828797888807,32.10370338997048,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.410688300</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18867176864414,32.103663427809636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.481327500</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18867176864414,32.103663427809636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.509241100</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18867176864414,32.103663427809636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.512201800</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18904542186007,32.103624521117425,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.552102</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.18867176864414,32.103663427809636,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.623933800</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2516,7 +4919,7 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.785867600</when>
+        <when>2020-01-22T21:28:56.653854500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2525,7 +4928,16 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.856725300</when>
+        <when>2020-01-22T21:28:56.656848300</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18863387313545,32.10366737368466,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.694051100</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
@@ -2534,11 +4946,56 @@
     </Placemark>
     <Placemark>
       <TimeStamp>
-        <when>2020-01-22T21:05:29.928226</when>
+        <when>2020-01-22T21:28:56.764527500</when>
       </TimeStamp>
       <styleUrl>#fruit-banana</styleUrl>
       <Point>
         <coordinates>35.19580080140219,32.10564424993287,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.800430600</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19580080140219,32.10564424993287,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.803422200</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18769230400007,32.10376541469966,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.835344900</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19580080140219,32.10564424993287,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.937097200</when>
+      </TimeStamp>
+      <styleUrl>#fruit-banana</styleUrl>
+      <Point>
+        <coordinates>35.19580080140219,32.10564424993287,0.0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <TimeStamp>
+        <when>2020-01-22T21:28:56.940095</when>
+      </TimeStamp>
+      <styleUrl>#robo</styleUrl>
+      <Point>
+        <coordinates>35.18753053591606,32.10378225882353,0.0</coordinates>
       </Point>
     </Placemark>
   

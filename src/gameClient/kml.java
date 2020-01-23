@@ -43,11 +43,12 @@ public class kml {
     /**
      * this function initialize the node icon to KML
      */
+   
     public void KML_node(){
         str.append(" <Style id=\"node\">\r\n" +
                 "      <IconStyle>\r\n" +
                 "        <Icon>\r\n" +
-                "          <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>\r\n" +
+                "          <href>http://maps.google.com/mapfiles/kml/shapes/shaded_dot.png</href>\r\n" +
                 "        </Icon>\r\n" +
                 "        <hotSpot x=\"32\" y=\"1\" xunits=\"pixels\" yunits=\"pixels\"/>\r\n" +
                 "      </IconStyle>\r\n" +
@@ -64,7 +65,7 @@ public class kml {
                 " <Style id=\"fruit-banana\">\r\n" +
                         "      <IconStyle>\r\n" +
                         "        <Icon>\r\n" +
-                        "          <href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href>\r\n" +
+                        "          <href>http://maps.google.com/mapfiles/kml/shapes/motorcycling.png</href>\r\n" +
                         "        </Icon>\r\n" +
                         "        <hotSpot x=\"32\" y=\"1\" xunits=\"pixels\" yunits=\"pixels\"/>\r\n" +
                         "      </IconStyle>\r\n" +
@@ -72,7 +73,7 @@ public class kml {
                         " <Style id=\"fruit-apple\">\r\n" +
                         "      <IconStyle>\r\n" +
                         "        <Icon>\r\n" +
-                        "          <href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>\r\n" +
+                        "          <href>http://maps.google.com/mapfiles/kml/shapes/truck.png</href>\r\n" +
                         "        </Icon>\r\n" +
                         "        <hotSpot x=\"32\" y=\"1\" xunits=\"pixels\" yunits=\"pixels\"/>\r\n" +
                         "      </IconStyle>\r\n" +

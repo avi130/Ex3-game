@@ -77,6 +77,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 	private int count;
 	public static int dt;
 	private int ID;
+	private String gr;
 
 
 	JButton Buttons;
@@ -148,7 +149,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 
 				this.game = Game_Server.getServer(inputfrom); // you have [0,23] games
 				km=new kml(inputfrom);
-				String gr = game.getGraph(); //getGraph returns String of edges and nodes
+				 gr = game.getGraph(); //getGraph returns String of edges and nodes
 				DGraph gg = new DGraph();
 				gg.init(gr);
 				this.graph2=gg;
@@ -219,7 +220,9 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 							dt=95;
 						}
 						 */				
-
+					
+						
+						
 						myAlgo.moveRobots(this.game, this.graph2);
 						if(ind%2==0) {repaint();}
 						//	TimeUnit.MILLISECONDS.sleep(dt);
@@ -406,10 +409,25 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 			}
 			//end of robots
 			if(graph2!=null ) {
+				
+				JSONObject graph = new JSONObject(gr);
+				 JSONArray nodes = graph.getJSONArray("Nodes");
+				 JSONArray edges = graph.getJSONArray("Edges");
+				//kml nodes rpacamarks
+				 for (int i = 0; i < nodes.length(); ++i) {//find min x&y foe the scale func
+					 String pos = nodes.getJSONObject(i).getString("pos");
+					 MyGameGUI.km.addPlaceMark("node", pos);
+				
+				 }
+				 
+		
+				 
+				 
+				
 				for (node_data p : graph2.getV() ) 
 				{
 
-
+					
 					g.setColor(Color.BLUE);
 					Point3D srcPoint = p.getLocation();
 					g.fillOval((int)srcPoint.x()-7, (int)srcPoint.y()-7, 12, 12);

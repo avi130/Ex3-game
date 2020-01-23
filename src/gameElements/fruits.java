@@ -88,6 +88,7 @@ public class fruits implements fruit_data  {
      *  Constructor init fruit attributes from a JSON string input.
      * @ param jsonSTR
      */
+	
 	public fruits(String jsonSTR) {
 
         this();
@@ -119,6 +120,7 @@ public class fruits implements fruit_data  {
      * @ param game - represent game
      * @ param p - represent graph
      */
+	
 	public static LinkedList<Integer> FruitInfo(game_service game, graph p) {
 		
   

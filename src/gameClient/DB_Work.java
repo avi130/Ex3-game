@@ -21,6 +21,8 @@ class DB_Work {
         levellst.add(20);
         levellst.add(23);
     }
+    
+    
     static String printLog(int id) {
         StringBuilder str= new StringBuilder();
         try {
@@ -30,7 +32,7 @@ class DB_Work {
             ResultSet resultSet=null;
             int ind =0;
             int MaxLevel=0;
-            str.append("Max Score per level Played by: ").append(id).append("\n").append("\n");
+            str.append("Max Scores Played by: ").append(id).append("\n").append("\n");
             for (int i = 0; i <24 ; i++) {
                 boolean have_a_score=false;
                 int MaxScore=0;
@@ -74,10 +76,10 @@ class DB_Work {
                     str.append("score: ").append(MaxScore).append(", moves: ").append(MinMoves).append(", at Time: ").append(time.toString()).append("\n");
                 }
                 else{
-                    str.append("not played yet/not passed minimum requirements").append("\n");
+                    str.append("didnt passed the minimum requirements").append("\n");
                 }
             }
-            str.append("\n").append("ID: ").append(id).append(" has Played: ").append(ind).append(" games.").append("\n").append("MaxLevel Reached is:").append(MaxLevel).append("\n");
+            str.append(" has Played: ").append(ind).append(" games.").append("\n").append("MaxLevel Reached is:").append(MaxLevel).append("\n");
             assert resultSet != null;
             resultSet.close();
             statement.close();
