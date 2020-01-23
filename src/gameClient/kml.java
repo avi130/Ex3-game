@@ -110,7 +110,7 @@ public class kml {
         str.append(
                 "    <Placemark>\r\n" +
                         "      <TimeStamp>\r\n" +
-                        "        <when>" + Present_time.minusHours(2)+ "</when>\r\n" +
+                        "        <when>" + Present_time+ "</when>\r\n" +
                         "      </TimeStamp>\r\n" +
                         "      <styleUrl>#" + id + "</styleUrl>\r\n" +
                         "      <Point>\r\n" +
@@ -120,16 +120,15 @@ public class kml {
         );
         
     }
-    public void Place_Mark_edge(int locationfrom,int locationto)
+    public void Place_Mark_edge(String locationfrom,String locationto)
     {
-    	String x =locationfrom+"";
-    	String y =locationto+"";
+    	
         str.append(
                 "        <Placemark>\n" +
                         "      <LineString>\n" +
                         "        <extrude>1</extrude>\n" +
                         "        <tessellate>1</tessellate>\n" +
-                        "        <coordinates>"+x+" "+y+"</coordinates>\n" +
+                        "        <coordinates>"+locationfrom+" "+locationto+"</coordinates>\n" +
                         "      </LineString>\n" +
                         "    </Placemark> "
         );

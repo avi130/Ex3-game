@@ -3,6 +3,9 @@ package Tests;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import Server.Game_Server;
+import Server.game_service;
 import dataStructure.*;
 
 import org.junit.jupiter.api.BeforeEach;
@@ -178,4 +181,18 @@ class DGraph_Test {
         assertEquals(13,graph.getMC());
     }
 
+    @Test
+    void initJson(){
+        game_service game= Game_Server.getServer(0);
+        String graph_str = game.getGraph();
+        DGraph level_graph = new DGraph();
+        level_graph.init(graph_str);
+        assertEquals(level_graph.nodeSize(),11);
+        assertEquals(level_graph.edgeSize(),22);
+        level_graph.removeNode(0);
+        assertEquals(level_graph.nodeSize(),10);
+        assertEquals(level_graph.edgeSize(),18);
+    }
+    
+    
 }

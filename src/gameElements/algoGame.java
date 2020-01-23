@@ -79,7 +79,7 @@ public class algoGame implements algo  {
 
 					if(Math.abs(cal)<Math.abs(0.1)) {
 
-						if(level>=21) {
+						if(level==23) {
 							if(rid==0 && edge.getDest()>=0 && edge.getDest()<=17 )
 								fruitLocationList.add(edge);
 
@@ -553,7 +553,7 @@ public class algoGame implements algo  {
 						}
 						prevtNode=src;
 						nextNode=dest;
-						if(level>=21) {
+						if(level==23) {
 							if(rid==0 && dest>=0 && dest<=17 )
 								game.chooseNextEdge(rid, dest);
 							else if (rid==1 && dest>=15 && dest<=38 )

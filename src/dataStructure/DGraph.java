@@ -43,85 +43,99 @@ public class DGraph implements graph,Serializable {
 		}
 	}
 
-	
+
 	private double scale(double data, double r_min, double r_max, 
 			double t_min, double t_max)
 	{
-		
+
 		double res = ((data - r_min) / (r_max-r_min)) * (t_max - t_min) + t_min;
 		return res;
 	}
 
 
-	
-	
+
+
 	public void init( String jsonString) {
 		try {
 			DGraph x=new DGraph();
-			 double xscale=0;
-			 double yscale=0;
-			 double xmin=Integer.MAX_VALUE;
-			 double ymin= Integer.MAX_VALUE;
-			 double xmax=Integer.MIN_VALUE;
-			 double ymax= Integer.MIN_VALUE;
-			 
-			 JSONObject graph = new JSONObject(jsonString);
-			 JSONArray nodes = graph.getJSONArray("Nodes");
-			 JSONArray edges = graph.getJSONArray("Edges");
-			
-			 for (int i = 0; i < nodes.length(); ++i) {//find min x&y foe the scale func
-				 String pos = nodes.getJSONObject(i).getString("pos");
-				 
-				 MyGameGUI.km.addPlaceMark("node", pos);
+			double xscale=0;
+			double yscale=0;
+			double xmin=Integer.MAX_VALUE;
+			double ymin= Integer.MAX_VALUE;
+			double xmax=Integer.MIN_VALUE;
+			double ymax= Integer.MIN_VALUE;
 
-				 String[] str = pos.split(",");
-				 xscale=Double.parseDouble(str[0]);
-				 if(xscale<xmin) {
-					 xmin=xscale;
-				 }
-				 if(xscale>xmax) {
-					 xmax=xscale;
-				 }
+			JSONObject graph = new JSONObject(jsonString);
+			JSONArray nodes = graph.getJSONArray("Nodes");
+			JSONArray edges = graph.getJSONArray("Edges");
 
-				 yscale=Double.parseDouble(str[1]);
-				 if(yscale<ymin) {
-					 ymin=yscale;
-				 }		
-				 if(yscale>ymax) {
-					 ymax=yscale;
-				 }
-				 
-				 
-			 }
-			 
-			 
-			 
+			for (int i = 0; i < nodes.length(); ++i) {//find min x&y foe the scale func
+				String pos = nodes.getJSONObject(i).getString("pos");
+				try {
+					MyGameGUI.km.addPlaceMark("node", pos);
+				}
+				catch (Exception e) {
+					e.printStackTrace();
+				}
+				String[] str = pos.split(",");
+				xscale=Double.parseDouble(str[0]);
+				if(xscale<xmin) {
+					xmin=xscale;
+				}
+				if(xscale>xmax) {
+					xmax=xscale;
+				}
+
+				yscale=Double.parseDouble(str[1]);
+				if(yscale<ymin) {
+					ymin=yscale;
+				}		
+				if(yscale>ymax) {
+					ymax=yscale;
+				}
+
+
+			}
+
+
+
 			for (int i = 0; i < nodes.length(); ++i) {
-				 int id = nodes.getJSONObject(i).getInt("id");
-				 String pos = nodes.getJSONObject(i).getString("pos");
-				 String[] str = pos.split(",");
-				 xscale=Double.parseDouble(str[0]);
-				 
-				 int xp=(int)scale(xscale, xmin, xmax, 0+40, 1300-40);
-				 yscale=Double.parseDouble(str[1]);
-				 int yp=(int)scale(yscale, ymin, ymax, 0+80, 700-40);
-				 
-				 
-				 Point3D p = new Point3D(xp,720-yp);
-				 
+				int id = nodes.getJSONObject(i).getInt("id");
+				String pos = nodes.getJSONObject(i).getString("pos");
+				String[] str = pos.split(",");
+				xscale=Double.parseDouble(str[0]);
+
+				int xp=(int)scale(xscale, xmin, xmax, 0+40, 1300-40);
+				yscale=Double.parseDouble(str[1]);
+				int yp=(int)scale(yscale, ymin, ymax, 0+80, 700-40);
+
+
+				Point3D p = new Point3D(xp,720-yp);
+
 				x.addNode(new node(id, p));
 			}
 			for (int i = 0; i < edges.length(); ++i) {
-				 int s = edges.getJSONObject(i).getInt("src");
-				 int d = edges.getJSONObject(i).getInt("dest");
-				 double w = edges.getJSONObject(i).getDouble("w");
+				int s = edges.getJSONObject(i).getInt("src");
+				int d = edges.getJSONObject(i).getInt("dest");
+				double w = edges.getJSONObject(i).getDouble("w");
+
+
+
+				String pos1 = nodes.getJSONObject(s).getString("pos");
+				String pos2 = nodes.getJSONObject(d).getString("pos");
+				try {	
+					MyGameGUI.km.Place_Mark_edge(pos2, pos1);
+				}
+				catch (Exception e) {
+					e.printStackTrace();
+				}
 				x.connect(s, d, w);
 			}
 			this.hmap1=x.hmap1;
 			this.hmap2=x.hmap2;
 			this.edgesize=x.edgesize;
 			this.MC=x.MC;
-		
+
 		}
 		catch (Exception e) {
 			e.printStackTrace();
