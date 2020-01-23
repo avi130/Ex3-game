@@ -5,10 +5,23 @@ import java.util.LinkedList;
 
 import static gameClient.SimpleDB.*;
 /**
-*The function creates a linked list of the desired levels:0,1,3,5,9,11,13,16,19,20,23.
-*/
+ * this class allows us read the information of each game
+ *  a specific player played.
+ *  by id user enters
+ * the information is read from data base SQL
+ */
 class DB_Work {
+    /**
+     * private data types of the class
+     * LinkedList<Integer> levellst
+     */
     private static LinkedList<Integer> levellst;
+    /**
+     * simple constructor
+     * add the linked list the
+     * difficult stages in the game.
+     * The server defines which level is difficult .
+     */
     DB_Work(){
         levellst=new LinkedList<>();
         levellst.add(0);
@@ -23,11 +36,11 @@ class DB_Work {
         levellst.add(20);
         levellst.add(23);
     }
-
     /**
-    * The function prints to the screen the highest score the player can reach when the game is over.
-    * @param id
-    */
+     * The function prints for the player the highest score he could finished a game with
+     * @param id- for the player.
+     * @return
+     */
     static String printLog(int id) {
         StringBuilder str= new StringBuilder();
         try {
@@ -37,7 +50,7 @@ class DB_Work {
             ResultSet resultSet=null;
             int ind =0;
             int MaxLevel=0;
-            str.append("Max Scores Played by: ").append(id).append("\n").append("\n");
+            str.append("Max Score per level Played by: ").append(id).append("\n").append("\n");
             for (int i = 0; i <24 ; i++) {
                 boolean have_a_score=false;
                 int MaxScore=0;
@@ -46,7 +59,6 @@ class DB_Work {
                 String allCustomersQuery = "SELECT * FROM Logs where userID="+id+" AND levelID="+i;
                 resultSet = statement.executeQuery(allCustomersQuery);
                 str.append("level ").append(i).append(") ");
-                //try {
                     while (resultSet.next()) {
                         have_a_score = true;
                         ind++;
@@ -73,19 +85,14 @@ class DB_Work {
                             }
                         }
                     }
-/*                }
-                catch (Exception e){
-                    have_a_score=false;
-                }*/
                 if(have_a_score&&time!=null){
                     str.append("score: ").append(MaxScore).append(", moves: ").append(MinMoves).append(", at Time: ").append(time.toString()).append("\n");
                 }
                 else{
-                    str.append("didnt passed the minimum requirements").append("\n");
+                    str.append("not played yet/not passed minimum requirements").append("\n");
                 }
             }
-            str.append(" has Played: ").append(ind).append(" games.").append("\n").append("MaxLevel Reached is:").append(MaxLevel).append("\n");
-            assert resultSet != null;
+            str.append("\n").append("ID: ").append(id).append(" has Played: ").append(ind).append(" games.").append("\n").append("MaxLevel Reached is:").append(MaxLevel).append("\n");
             resultSet.close();
             statement.close();
             connection.close();
@@ -100,93 +107,86 @@ class DB_Work {
         }
         return str.toString();
     }
-    
-   /** 
-   * If a player chooses to play a game from the difficult stages.
-   * The function will print the score for it relative to the other players.
-   * @param moves - represents the amount of moves
-   * @param level - represents the current level
-   */
-
+    /**
+     * If a player chooses to play a game from the difficult stages.
+     * The function will print the score for it relative to the other players
+     * @param id - for the player.
+     * @return
+     */
+    static String ToughStages(int id) {
+        ResultSet resultSet = null;
+        StringBuilder str = new StringBuilder();
+        str.append(id).append(" Placements for 'Tough Levels' are:").append("\n");
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+            Connection connection = DriverManager.getConnection(jdbcUrl, jdbcUser, jdbcUserPassword);
+            Statement statement = connection.createStatement();
+            for (int level : levellst) {
+                int place = 1;
+                String Query = "SELECT MAX(score) AS score FROM Logs where UserID=" + id + " AND levelID=" + level;
+                resultSet = statement.executeQuery(Query);
+                resultSet.next();
+                int myhigh = resultSet.getInt("score");
+                Query = "SELECT * FROM Logs where LevelID=" + level + " Order by score desc";
+                resultSet = statement.executeQuery(Query);
+                LinkedList<Integer> lst2 = new LinkedList<>();
+                while (resultSet.next()) {
+                    int nextscore = resultSet.getInt("score");
+                    if (!lst2.contains(nextscore)) {
+                        lst2.add(nextscore);
+                        if(nextscore==myhigh) break;
+                        place++;
+                    }
+                }
+                str.append(level).append(") ").append(place).append("\n");
+            }
+            assert resultSet != null;
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (SQLException sqle) {
+            System.out.println("SQLException: " + sqle.getMessage());
+            System.out.println("Vendor Error: " + sqle.getErrorCode());
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return str.toString();
+    }
+    /**
+     *this function check for each difficult level
+     * if the number of moves taken in the game
+     * is lower then the maximum number of steps can be taken to pass a stage.
+     *
+     * @param moves- enter a number of moves taken
+     * @param level - which level was played
+     * @return true if lower then the maximum
+     */
     private static boolean underMaxMoves(int moves,int level){
         switch(level) {
             case 0 :
-            	 return moves <= 290;
             case 16:
-            	 return moves <= 290;
             case 20:
                 return moves <= 290;
             case 1:
-            	return moves<= 580;
             case 3:
-            	return moves<= 580;
             case 9:
-            	return moves<= 580;
             case 11:
-            	return moves<= 580;
             case 13:
-            	return moves<= 580;
             case 19:
                 return moves<= 580;
-           
             case 5:
                 return moves<= 500;
-           
             case 23:
                 return moves<= 1140;
             default: return false;
         }
     }
-    
-    
-
-    /** 
-   * At each difficult level, the function checks if the resulting moves
-   * amount is less than the maximum moves amount for each stage. level: At what level the player is currently playing moves:
-   * The number of moves taken in the stage The function returns true if the result is less than the maximum number of moves
-   * @param id
-   */
-    static String ToughStages(int id){
-        StringBuilder str=new StringBuilder();
-        str.append("Placements for 'Tough Levels' are:").append("\n");
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection(jdbcUrl, jdbcUser, jdbcUserPassword);
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = null;
-            for(int level:levellst) {
-                String allCustomersQuery = "SELECT * FROM Logs where levelID=" + level;
-                resultSet = statement.executeQuery(allCustomersQuery);
-                int ind = 0;
-                boolean not_my_id=true;
-                while (resultSet.next()&&not_my_id) {
-                    ind++;
-                    if(resultSet.getInt("userID")==id){
-                        not_my_id=false;
-                    }
-                }
-                str.append(level).append(") ").append(ind).append("\n");
-            }
-            assert resultSet != null;
-            resultSet.close();
-            statement.close();
-            connection.close();
-        }
-
-        catch (SQLException sqle) {
-            System.out.println("SQLException: " + sqle.getMessage());
-            System.out.println("Vendor Error: " + sqle.getErrorCode());
-        }
-        catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-        return str.toString();
-    }
-    
+    /**
+     * boolean function to check if a level is a difficult level
+     * @param level
+     * @return
+     */
     static boolean ToughLevels(int level){
         return levellst.contains(level);
     }
-    
- 
-    
 }
