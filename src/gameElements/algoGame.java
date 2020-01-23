@@ -108,10 +108,6 @@ public class algoGame implements algo  {
 
 			}
 		}
-		for (int i = 0; i <fruitLocationList.size(); i++) {
-			//System.out.println(fruitLocationList.get(i));
-		}
-
 
 		Graph_Algo ga = new Graph_Algo();
 		ga.init(gg);
@@ -162,58 +158,6 @@ public class algoGame implements algo  {
 		else { System.out.println("blat");
 		ans=null;
 		}
-		/*
-		if(level >=20) {
-
-			if(rid==0 && Math.abs(ans.get(1).getKey() -10)<=10   ) {
-				return ans;
-			}
-
-
-			else if(rid==1   && Math.abs(ans.get(1).getKey() -20)<=10) {
-				return ans;
-			}
-
-			else if(rid==2   && Math.abs(ans.get(1).getKey() -30)<=10) {
-				return ans;
-			}
-
-			else 
-				return null;
-
-
-
-
-		}
-
-		 */
-
-		/*
-		if(level >=20) {
-
-			if( rid==0  &&  myApplekey>=0  && myApplekey <= 39 ) {
-				ans=ga.shortestPath(src, fruitLocationList.get(1).getDest());
-				return ans;
-
-			}
-
-
-			else if(rid==1   && myApplekey>=14  && myApplekey <= 39 ) {
-				ans=ga.shortestPath(src, fruitLocationList.get(1).getDest());
-				return ans;
-			}
-
-			else if(rid==2   && myApplekey>=39  && myApplekey <= 50 ) {
-				ans=ga.shortestPath(src, fruitLocationList.get(1).getDest());
-				return ans;
-			}
-			else ans=ga.shortestPath(src,src);
-			return ans;
-
-		}
-
-
-		 */
 
 
 		return ans;
