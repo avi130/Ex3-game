@@ -4,7 +4,9 @@ import java.sql.*;
 import java.util.LinkedList;
 
 import static gameClient.SimpleDB.*;
-
+/**
+*The function creates a linked list of the desired levels:0,1,3,5,9,11,13,16,19,20,23.
+*/
 class DB_Work {
     private static LinkedList<Integer> levellst;
     DB_Work(){
@@ -21,8 +23,11 @@ class DB_Work {
         levellst.add(20);
         levellst.add(23);
     }
-    
-    
+
+    /**
+    * The function prints to the screen the highest score the player can reach when the game is over.
+    * @param id
+    */
     static String printLog(int id) {
         StringBuilder str= new StringBuilder();
         try {
@@ -96,8 +101,13 @@ class DB_Work {
         return str.toString();
     }
     
-    
-    
+   /** 
+   * If a player chooses to play a game from the difficult stages.
+   * The function will print the score for it relative to the other players.
+   * @param moves - represents the amount of moves
+   * @param level - represents the current level
+   */
+
     private static boolean underMaxMoves(int moves,int level){
         switch(level) {
             case 0 :
@@ -130,7 +140,12 @@ class DB_Work {
     
     
 
-    
+    /** 
+   * At each difficult level, the function checks if the resulting moves
+   * amount is less than the maximum moves amount for each stage. level: At what level the player is currently playing moves:
+   * The number of moves taken in the stage The function returns true if the result is less than the maximum number of moves
+   * @param id
+   */
     static String ToughStages(int id){
         StringBuilder str=new StringBuilder();
         str.append("Placements for 'Tough Levels' are:").append("\n");

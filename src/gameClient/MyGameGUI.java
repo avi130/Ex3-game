@@ -412,7 +412,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				
 				JSONObject graph = new JSONObject(gr);
 				 JSONArray nodes = graph.getJSONArray("Nodes");
-				 JSONArray edges = graph.getJSONArray("Edges");
+				// JSONArray edges = graph.getJSONArray("Edges");
 				//kml nodes rpacamarks
 				 for (int i = 0; i < nodes.length(); ++i) {//find min x&y foe the scale func
 					 String pos = nodes.getJSONObject(i).getString("pos");
