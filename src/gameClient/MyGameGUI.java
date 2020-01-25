@@ -266,11 +266,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				JOptionPane.showMessageDialog(null, "Game Over: your grade is "+ rs);
 				String results = game.toString();
 				System.out.println("Game Over: "+results);
-				//*********
-
-
-
-
+				
 
 				JOptionPane.showMessageDialog(null, "Loading HighScore and Placement plesae wait ");
 				DB_Work db=new DB_Work();
@@ -278,7 +274,7 @@ public class MyGameGUI extends JFrame implements ActionListener, MouseListener ,
 				if(DB_Work.ToughLevels(inputfrom)){
 					JOptionPane.showMessageDialog(null,db.ToughStages(ID));
 				}
-				//*********
+		
 				System.exit(0);
 
 			}catch(Exception ex) {}

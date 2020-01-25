@@ -158,5 +158,14 @@ public class kml {
             e.printStackTrace();
         }
     }
+    
+    
+    @Override
+    public String toString(){
+        return str.toString();
+    }
+    
+    
+    
 
 }
