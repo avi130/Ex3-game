@@ -29,8 +29,6 @@ This assignment data structures and algorithms are based on previous project Ex2
 
 ![](https://i.imgur.com/6HJbxae.png)
 
-![](https://i.imgur.com/6Ul5PNt.png)
-
 ![](https://i.imgur.com/ZJuNFky.png)
 
 ![](https://i.imgur.com/UMrWJT8.png)
