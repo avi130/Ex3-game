@@ -23,8 +23,6 @@ This assignment data structures and algorithms are based on previous project Ex2
     
 ## image examples from the game:
 
-![](https://i.imgur.com/WcNIpgm.png)
-
 ![](https://i.imgur.com/8dsMn1o.png)
 
 ![](https://i.imgur.com/ksmT6I9.png)
